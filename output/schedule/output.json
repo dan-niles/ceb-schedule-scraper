@@ -1,0 +1,3098 @@
+[
+	{
+		"id": "2506",
+		"group_name": "A",
+		"starting_period": "2022-05-02T09:00:00.000Z",
+		"ending_period": "2022-05-02T11:00:00.000Z"
+	},
+	{
+		"id": "2518",
+		"group_name": "A",
+		"starting_period": "2022-05-02T17:00:00.000Z",
+		"ending_period": "2022-05-02T18:20:00.000Z"
+	},
+	{
+		"id": "2546",
+		"group_name": "A",
+		"starting_period": "2022-05-04T09:00:00.000Z",
+		"ending_period": "2022-05-04T11:00:00.000Z"
+	},
+	{
+		"id": "2558",
+		"group_name": "A",
+		"starting_period": "2022-05-04T17:00:00.000Z",
+		"ending_period": "2022-05-04T18:20:00.000Z"
+	},
+	{
+		"id": "2603",
+		"group_name": "A",
+		"starting_period": "2022-05-05T15:00:00.000Z",
+		"ending_period": "2022-05-05T17:00:00.000Z"
+	},
+	{
+		"id": "2635",
+		"group_name": "A",
+		"starting_period": "2022-05-06T15:00:00.000Z",
+		"ending_period": "2022-05-06T17:00:00.000Z"
+	},
+	{
+		"id": "2620",
+		"group_name": "A",
+		"starting_period": "2022-05-05T19:40:00.000Z",
+		"ending_period": "2022-05-05T21:00:00.000Z"
+	},
+	{
+		"id": "2646",
+		"group_name": "A",
+		"starting_period": "2022-05-06T19:40:00.000Z",
+		"ending_period": "2022-05-06T21:00:00.000Z"
+	},
+	{
+		"id": "2675",
+		"group_name": "A",
+		"starting_period": "2022-05-07T15:00:00.000Z",
+		"ending_period": "2022-05-07T17:00:00.000Z"
+	},
+	{
+		"id": "2686",
+		"group_name": "A",
+		"starting_period": "2022-05-07T19:40:00.000Z",
+		"ending_period": "2022-05-07T21:00:00.000Z"
+	},
+	{
+		"id": "2715",
+		"group_name": "A",
+		"starting_period": "2022-05-08T15:00:00.000Z",
+		"ending_period": "2022-05-08T17:00:00.000Z"
+	},
+	{
+		"id": "2726",
+		"group_name": "A",
+		"starting_period": "2022-05-08T19:40:00.000Z",
+		"ending_period": "2022-05-08T21:00:00.000Z"
+	},
+	{
+		"id": "2751",
+		"group_name": "A",
+		"starting_period": "2022-05-09T11:00:00.000Z",
+		"ending_period": "2022-05-09T13:00:00.000Z"
+	},
+	{
+		"id": "2762",
+		"group_name": "A",
+		"starting_period": "2022-05-09T18:20:00.000Z",
+		"ending_period": "2022-05-09T19:40:00.000Z"
+	},
+	{
+		"id": "2817",
+		"group_name": "A",
+		"starting_period": "2022-05-10T11:00:00.000Z",
+		"ending_period": "2022-05-10T13:00:00.000Z"
+	},
+	{
+		"id": "2832",
+		"group_name": "A",
+		"starting_period": "2022-05-10T18:20:00.000Z",
+		"ending_period": "2022-05-10T19:40:00.000Z"
+	},
+	{
+		"id": "2867",
+		"group_name": "A",
+		"starting_period": "2022-05-11T11:00:00.000Z",
+		"ending_period": "2022-05-11T13:00:00.000Z"
+	},
+	{
+		"id": "2878",
+		"group_name": "A",
+		"starting_period": "2022-05-11T18:20:00.000Z",
+		"ending_period": "2022-05-11T19:40:00.000Z"
+	},
+	{
+		"id": "2888",
+		"group_name": "A",
+		"starting_period": "2022-05-12T08:00:00.000Z",
+		"ending_period": "2022-05-12T11:20:00.000Z"
+	},
+	{
+		"id": "2905",
+		"group_name": "A",
+		"starting_period": "2022-05-12T18:00:00.000Z",
+		"ending_period": "2022-05-12T19:40:00.000Z"
+	},
+	{
+		"id": "2938",
+		"group_name": "A",
+		"starting_period": "2022-05-13T08:00:00.000Z",
+		"ending_period": "2022-05-13T11:20:00.000Z"
+	},
+	{
+		"id": "2961",
+		"group_name": "A",
+		"starting_period": "2022-05-13T18:00:00.000Z",
+		"ending_period": "2022-05-13T19:40:00.000Z"
+	},
+	{
+		"id": "2986",
+		"group_name": "A",
+		"starting_period": "2022-05-14T08:00:00.000Z",
+		"ending_period": "2022-05-14T11:20:00.000Z"
+	},
+	{
+		"id": "3008",
+		"group_name": "A",
+		"starting_period": "2022-05-14T18:00:00.000Z",
+		"ending_period": "2022-05-14T19:40:00.000Z"
+	},
+	{
+		"id": "3009",
+		"group_name": "B",
+		"starting_period": "2022-05-14T18:00:00.000Z",
+		"ending_period": "2022-05-14T19:40:00.000Z"
+	},
+	{
+		"id": "2988",
+		"group_name": "B",
+		"starting_period": "2022-05-14T08:00:00.000Z",
+		"ending_period": "2022-05-14T11:20:00.000Z"
+	},
+	{
+		"id": "2962",
+		"group_name": "B",
+		"starting_period": "2022-05-13T18:00:00.000Z",
+		"ending_period": "2022-05-13T19:40:00.000Z"
+	},
+	{
+		"id": "2939",
+		"group_name": "B",
+		"starting_period": "2022-05-13T08:00:00.000Z",
+		"ending_period": "2022-05-13T11:20:00.000Z"
+	},
+	{
+		"id": "2907",
+		"group_name": "B",
+		"starting_period": "2022-05-12T18:00:00.000Z",
+		"ending_period": "2022-05-12T19:40:00.000Z"
+	},
+	{
+		"id": "2889",
+		"group_name": "B",
+		"starting_period": "2022-05-12T08:00:00.000Z",
+		"ending_period": "2022-05-12T11:20:00.000Z"
+	},
+	{
+		"id": "2879",
+		"group_name": "B",
+		"starting_period": "2022-05-11T18:20:00.000Z",
+		"ending_period": "2022-05-11T19:40:00.000Z"
+	},
+	{
+		"id": "2868",
+		"group_name": "B",
+		"starting_period": "2022-05-11T13:00:00.000Z",
+		"ending_period": "2022-05-11T15:00:00.000Z"
+	},
+	{
+		"id": "2833",
+		"group_name": "B",
+		"starting_period": "2022-05-10T18:20:00.000Z",
+		"ending_period": "2022-05-10T19:40:00.000Z"
+	},
+	{
+		"id": "2820",
+		"group_name": "B",
+		"starting_period": "2022-05-10T13:00:00.000Z",
+		"ending_period": "2022-05-10T15:00:00.000Z"
+	},
+	{
+		"id": "2763",
+		"group_name": "B",
+		"starting_period": "2022-05-09T18:20:00.000Z",
+		"ending_period": "2022-05-09T19:40:00.000Z"
+	},
+	{
+		"id": "2752",
+		"group_name": "B",
+		"starting_period": "2022-05-09T13:00:00.000Z",
+		"ending_period": "2022-05-09T15:00:00.000Z"
+	},
+	{
+		"id": "2727",
+		"group_name": "B",
+		"starting_period": "2022-05-08T19:40:00.000Z",
+		"ending_period": "2022-05-08T21:00:00.000Z"
+	},
+	{
+		"id": "2716",
+		"group_name": "B",
+		"starting_period": "2022-05-08T15:00:00.000Z",
+		"ending_period": "2022-05-08T17:00:00.000Z"
+	},
+	{
+		"id": "2687",
+		"group_name": "B",
+		"starting_period": "2022-05-07T19:40:00.000Z",
+		"ending_period": "2022-05-07T21:00:00.000Z"
+	},
+	{
+		"id": "2676",
+		"group_name": "B",
+		"starting_period": "2022-05-07T15:00:00.000Z",
+		"ending_period": "2022-05-07T17:00:00.000Z"
+	},
+	{
+		"id": "2647",
+		"group_name": "B",
+		"starting_period": "2022-05-06T19:40:00.000Z",
+		"ending_period": "2022-05-06T21:00:00.000Z"
+	},
+	{
+		"id": "2621",
+		"group_name": "B",
+		"starting_period": "2022-05-05T19:40:00.000Z",
+		"ending_period": "2022-05-05T21:00:00.000Z"
+	},
+	{
+		"id": "2636",
+		"group_name": "B",
+		"starting_period": "2022-05-06T15:00:00.000Z",
+		"ending_period": "2022-05-06T17:00:00.000Z"
+	},
+	{
+		"id": "2604",
+		"group_name": "B",
+		"starting_period": "2022-05-05T15:00:00.000Z",
+		"ending_period": "2022-05-05T17:00:00.000Z"
+	},
+	{
+		"id": "2559",
+		"group_name": "B",
+		"starting_period": "2022-05-04T17:00:00.000Z",
+		"ending_period": "2022-05-04T18:20:00.000Z"
+	},
+	{
+		"id": "2547",
+		"group_name": "B",
+		"starting_period": "2022-05-04T09:00:00.000Z",
+		"ending_period": "2022-05-04T11:00:00.000Z"
+	},
+	{
+		"id": "2519",
+		"group_name": "B",
+		"starting_period": "2022-05-02T17:00:00.000Z",
+		"ending_period": "2022-05-02T18:20:00.000Z"
+	},
+	{
+		"id": "2507",
+		"group_name": "B",
+		"starting_period": "2022-05-02T09:00:00.000Z",
+		"ending_period": "2022-05-02T11:00:00.000Z"
+	},
+	{
+		"id": "2508",
+		"group_name": "C",
+		"starting_period": "2022-05-02T09:00:00.000Z",
+		"ending_period": "2022-05-02T11:00:00.000Z"
+	},
+	{
+		"id": "2520",
+		"group_name": "C",
+		"starting_period": "2022-05-02T17:00:00.000Z",
+		"ending_period": "2022-05-02T18:20:00.000Z"
+	},
+	{
+		"id": "2548",
+		"group_name": "C",
+		"starting_period": "2022-05-04T09:00:00.000Z",
+		"ending_period": "2022-05-04T11:00:00.000Z"
+	},
+	{
+		"id": "2560",
+		"group_name": "C",
+		"starting_period": "2022-05-04T17:00:00.000Z",
+		"ending_period": "2022-05-04T18:20:00.000Z"
+	},
+	{
+		"id": "2605",
+		"group_name": "C",
+		"starting_period": "2022-05-05T15:00:00.000Z",
+		"ending_period": "2022-05-05T17:00:00.000Z"
+	},
+	{
+		"id": "2637",
+		"group_name": "C",
+		"starting_period": "2022-05-06T15:00:00.000Z",
+		"ending_period": "2022-05-06T17:00:00.000Z"
+	},
+	{
+		"id": "2622",
+		"group_name": "C",
+		"starting_period": "2022-05-05T19:40:00.000Z",
+		"ending_period": "2022-05-05T21:00:00.000Z"
+	},
+	{
+		"id": "2648",
+		"group_name": "C",
+		"starting_period": "2022-05-06T19:40:00.000Z",
+		"ending_period": "2022-05-06T21:00:00.000Z"
+	},
+	{
+		"id": "2677",
+		"group_name": "C",
+		"starting_period": "2022-05-07T15:00:00.000Z",
+		"ending_period": "2022-05-07T17:00:00.000Z"
+	},
+	{
+		"id": "2688",
+		"group_name": "C",
+		"starting_period": "2022-05-07T19:40:00.000Z",
+		"ending_period": "2022-05-07T21:00:00.000Z"
+	},
+	{
+		"id": "2717",
+		"group_name": "C",
+		"starting_period": "2022-05-08T15:00:00.000Z",
+		"ending_period": "2022-05-08T17:00:00.000Z"
+	},
+	{
+		"id": "2728",
+		"group_name": "C",
+		"starting_period": "2022-05-08T19:40:00.000Z",
+		"ending_period": "2022-05-08T21:00:00.000Z"
+	},
+	{
+		"id": "2753",
+		"group_name": "C",
+		"starting_period": "2022-05-09T13:00:00.000Z",
+		"ending_period": "2022-05-09T15:00:00.000Z"
+	},
+	{
+		"id": "2764",
+		"group_name": "C",
+		"starting_period": "2022-05-09T18:20:00.000Z",
+		"ending_period": "2022-05-09T19:40:00.000Z"
+	},
+	{
+		"id": "2822",
+		"group_name": "C",
+		"starting_period": "2022-05-10T13:00:00.000Z",
+		"ending_period": "2022-05-10T15:00:00.000Z"
+	},
+	{
+		"id": "2834",
+		"group_name": "C",
+		"starting_period": "2022-05-10T18:20:00.000Z",
+		"ending_period": "2022-05-10T19:40:00.000Z"
+	},
+	{
+		"id": "2869",
+		"group_name": "C",
+		"starting_period": "2022-05-11T13:00:00.000Z",
+		"ending_period": "2022-05-11T15:00:00.000Z"
+	},
+	{
+		"id": "2880",
+		"group_name": "C",
+		"starting_period": "2022-05-11T18:20:00.000Z",
+		"ending_period": "2022-05-11T19:40:00.000Z"
+	},
+	{
+		"id": "2890",
+		"group_name": "C",
+		"starting_period": "2022-05-12T08:00:00.000Z",
+		"ending_period": "2022-05-12T11:20:00.000Z"
+	},
+	{
+		"id": "2909",
+		"group_name": "C",
+		"starting_period": "2022-05-12T18:00:00.000Z",
+		"ending_period": "2022-05-12T19:40:00.000Z"
+	},
+	{
+		"id": "2940",
+		"group_name": "C",
+		"starting_period": "2022-05-13T08:00:00.000Z",
+		"ending_period": "2022-05-13T11:20:00.000Z"
+	},
+	{
+		"id": "2963",
+		"group_name": "C",
+		"starting_period": "2022-05-13T18:00:00.000Z",
+		"ending_period": "2022-05-13T19:40:00.000Z"
+	},
+	{
+		"id": "2989",
+		"group_name": "C",
+		"starting_period": "2022-05-14T08:00:00.000Z",
+		"ending_period": "2022-05-14T11:20:00.000Z"
+	},
+	{
+		"id": "3010",
+		"group_name": "C",
+		"starting_period": "2022-05-14T18:00:00.000Z",
+		"ending_period": "2022-05-14T19:40:00.000Z"
+	},
+	{
+		"id": "3011",
+		"group_name": "D",
+		"starting_period": "2022-05-14T18:00:00.000Z",
+		"ending_period": "2022-05-14T19:40:00.000Z"
+	},
+	{
+		"id": "2990",
+		"group_name": "D",
+		"starting_period": "2022-05-14T08:00:00.000Z",
+		"ending_period": "2022-05-14T11:20:00.000Z"
+	},
+	{
+		"id": "2964",
+		"group_name": "D",
+		"starting_period": "2022-05-13T18:00:00.000Z",
+		"ending_period": "2022-05-13T19:40:00.000Z"
+	},
+	{
+		"id": "2941",
+		"group_name": "D",
+		"starting_period": "2022-05-13T08:00:00.000Z",
+		"ending_period": "2022-05-13T11:20:00.000Z"
+	},
+	{
+		"id": "2910",
+		"group_name": "D",
+		"starting_period": "2022-05-12T18:00:00.000Z",
+		"ending_period": "2022-05-12T19:40:00.000Z"
+	},
+	{
+		"id": "2891",
+		"group_name": "D",
+		"starting_period": "2022-05-12T08:00:00.000Z",
+		"ending_period": "2022-05-12T11:20:00.000Z"
+	},
+	{
+		"id": "2881",
+		"group_name": "D",
+		"starting_period": "2022-05-11T18:20:00.000Z",
+		"ending_period": "2022-05-11T19:40:00.000Z"
+	},
+	{
+		"id": "2870",
+		"group_name": "D",
+		"starting_period": "2022-05-11T13:00:00.000Z",
+		"ending_period": "2022-05-11T15:00:00.000Z"
+	},
+	{
+		"id": "2835",
+		"group_name": "D",
+		"starting_period": "2022-05-10T18:20:00.000Z",
+		"ending_period": "2022-05-10T19:40:00.000Z"
+	},
+	{
+		"id": "2824",
+		"group_name": "D",
+		"starting_period": "2022-05-10T13:00:00.000Z",
+		"ending_period": "2022-05-10T15:00:00.000Z"
+	},
+	{
+		"id": "2765",
+		"group_name": "D",
+		"starting_period": "2022-05-09T18:20:00.000Z",
+		"ending_period": "2022-05-09T19:40:00.000Z"
+	},
+	{
+		"id": "2754",
+		"group_name": "D",
+		"starting_period": "2022-05-09T13:00:00.000Z",
+		"ending_period": "2022-05-09T15:00:00.000Z"
+	},
+	{
+		"id": "2729",
+		"group_name": "D",
+		"starting_period": "2022-05-08T19:40:00.000Z",
+		"ending_period": "2022-05-08T21:00:00.000Z"
+	},
+	{
+		"id": "2706",
+		"group_name": "D",
+		"starting_period": "2022-05-08T09:00:00.000Z",
+		"ending_period": "2022-05-08T11:00:00.000Z"
+	},
+	{
+		"id": "2689",
+		"group_name": "D",
+		"starting_period": "2022-05-07T19:40:00.000Z",
+		"ending_period": "2022-05-07T21:00:00.000Z"
+	},
+	{
+		"id": "2666",
+		"group_name": "D",
+		"starting_period": "2022-05-07T09:00:00.000Z",
+		"ending_period": "2022-05-07T11:00:00.000Z"
+	},
+	{
+		"id": "2649",
+		"group_name": "D",
+		"starting_period": "2022-05-06T19:40:00.000Z",
+		"ending_period": "2022-05-06T21:00:00.000Z"
+	},
+	{
+		"id": "2623",
+		"group_name": "D",
+		"starting_period": "2022-05-05T19:40:00.000Z",
+		"ending_period": "2022-05-05T21:00:00.000Z"
+	},
+	{
+		"id": "2626",
+		"group_name": "D",
+		"starting_period": "2022-05-06T09:00:00.000Z",
+		"ending_period": "2022-05-06T11:00:00.000Z"
+	},
+	{
+		"id": "2561",
+		"group_name": "D",
+		"starting_period": "2022-05-04T17:00:00.000Z",
+		"ending_period": "2022-05-04T18:20:00.000Z"
+	},
+	{
+		"id": "2586",
+		"group_name": "D",
+		"starting_period": "2022-05-05T09:00:00.000Z",
+		"ending_period": "2022-05-05T11:00:00.000Z"
+	},
+	{
+		"id": "2549",
+		"group_name": "D",
+		"starting_period": "2022-05-04T11:00:00.000Z",
+		"ending_period": "2022-05-04T13:00:00.000Z"
+	},
+	{
+		"id": "2521",
+		"group_name": "D",
+		"starting_period": "2022-05-02T17:00:00.000Z",
+		"ending_period": "2022-05-02T18:20:00.000Z"
+	},
+	{
+		"id": "2509",
+		"group_name": "D",
+		"starting_period": "2022-05-02T11:00:00.000Z",
+		"ending_period": "2022-05-02T13:00:00.000Z"
+	},
+	{
+		"id": "2510",
+		"group_name": "E",
+		"starting_period": "2022-05-02T11:00:00.000Z",
+		"ending_period": "2022-05-02T13:00:00.000Z"
+	},
+	{
+		"id": "2522",
+		"group_name": "E",
+		"starting_period": "2022-05-02T18:20:00.000Z",
+		"ending_period": "2022-05-02T19:40:00.000Z"
+	},
+	{
+		"id": "2550",
+		"group_name": "E",
+		"starting_period": "2022-05-04T11:00:00.000Z",
+		"ending_period": "2022-05-04T13:00:00.000Z"
+	},
+	{
+		"id": "2587",
+		"group_name": "E",
+		"starting_period": "2022-05-05T09:00:00.000Z",
+		"ending_period": "2022-05-05T11:00:00.000Z"
+	},
+	{
+		"id": "2562",
+		"group_name": "E",
+		"starting_period": "2022-05-04T18:20:00.000Z",
+		"ending_period": "2022-05-04T19:40:00.000Z"
+	},
+	{
+		"id": "2627",
+		"group_name": "E",
+		"starting_period": "2022-05-06T09:00:00.000Z",
+		"ending_period": "2022-05-06T11:00:00.000Z"
+	},
+	{
+		"id": "2638",
+		"group_name": "E",
+		"starting_period": "2022-05-06T17:00:00.000Z",
+		"ending_period": "2022-05-06T18:20:00.000Z"
+	},
+	{
+		"id": "2606",
+		"group_name": "E",
+		"starting_period": "2022-05-05T17:00:00.000Z",
+		"ending_period": "2022-05-05T18:20:00.000Z"
+	},
+	{
+		"id": "2667",
+		"group_name": "E",
+		"starting_period": "2022-05-07T09:00:00.000Z",
+		"ending_period": "2022-05-07T11:00:00.000Z"
+	},
+	{
+		"id": "2678",
+		"group_name": "E",
+		"starting_period": "2022-05-07T17:00:00.000Z",
+		"ending_period": "2022-05-07T18:20:00.000Z"
+	},
+	{
+		"id": "2707",
+		"group_name": "E",
+		"starting_period": "2022-05-08T09:00:00.000Z",
+		"ending_period": "2022-05-08T11:00:00.000Z"
+	},
+	{
+		"id": "2718",
+		"group_name": "E",
+		"starting_period": "2022-05-08T17:00:00.000Z",
+		"ending_period": "2022-05-08T18:20:00.000Z"
+	},
+	{
+		"id": "2755",
+		"group_name": "E",
+		"starting_period": "2022-05-09T15:00:00.000Z",
+		"ending_period": "2022-05-09T17:00:00.000Z"
+	},
+	{
+		"id": "2766",
+		"group_name": "E",
+		"starting_period": "2022-05-09T19:40:00.000Z",
+		"ending_period": "2022-05-09T21:00:00.000Z"
+	},
+	{
+		"id": "2825",
+		"group_name": "E",
+		"starting_period": "2022-05-10T15:00:00.000Z",
+		"ending_period": "2022-05-10T17:00:00.000Z"
+	},
+	{
+		"id": "2836",
+		"group_name": "E",
+		"starting_period": "2022-05-10T19:40:00.000Z",
+		"ending_period": "2022-05-10T21:00:00.000Z"
+	},
+	{
+		"id": "2871",
+		"group_name": "E",
+		"starting_period": "2022-05-11T15:00:00.000Z",
+		"ending_period": "2022-05-11T17:00:00.000Z"
+	},
+	{
+		"id": "2882",
+		"group_name": "E",
+		"starting_period": "2022-05-11T19:40:00.000Z",
+		"ending_period": "2022-05-11T21:00:00.000Z"
+	},
+	{
+		"id": "2892",
+		"group_name": "E",
+		"starting_period": "2022-05-12T11:20:00.000Z",
+		"ending_period": "2022-05-12T14:40:00.000Z"
+	},
+	{
+		"id": "2911",
+		"group_name": "E",
+		"starting_period": "2022-05-12T19:40:00.000Z",
+		"ending_period": "2022-05-12T21:20:00.000Z"
+	},
+	{
+		"id": "2965",
+		"group_name": "E",
+		"starting_period": "2022-05-13T19:40:00.000Z",
+		"ending_period": "2022-05-13T21:20:00.000Z"
+	},
+	{
+		"id": "2947",
+		"group_name": "E",
+		"starting_period": "2022-05-13T11:20:00.000Z",
+		"ending_period": "2022-05-13T14:40:00.000Z"
+	},
+	{
+		"id": "3015",
+		"group_name": "E",
+		"starting_period": "2022-05-14T19:40:00.000Z",
+		"ending_period": "2022-05-14T21:20:00.000Z"
+	},
+	{
+		"id": "2995",
+		"group_name": "E",
+		"starting_period": "2022-05-14T11:20:00.000Z",
+		"ending_period": "2022-05-14T14:40:00.000Z"
+	},
+	{
+		"id": "2996",
+		"group_name": "F",
+		"starting_period": "2022-05-14T11:20:00.000Z",
+		"ending_period": "2022-05-14T14:40:00.000Z"
+	},
+	{
+		"id": "3016",
+		"group_name": "F",
+		"starting_period": "2022-05-14T19:40:00.000Z",
+		"ending_period": "2022-05-14T21:20:00.000Z"
+	},
+	{
+		"id": "2948",
+		"group_name": "F",
+		"starting_period": "2022-05-13T11:20:00.000Z",
+		"ending_period": "2022-05-13T14:40:00.000Z"
+	},
+	{
+		"id": "2966",
+		"group_name": "F",
+		"starting_period": "2022-05-13T19:40:00.000Z",
+		"ending_period": "2022-05-13T21:20:00.000Z"
+	},
+	{
+		"id": "2913",
+		"group_name": "F",
+		"starting_period": "2022-05-12T19:40:00.000Z",
+		"ending_period": "2022-05-12T21:20:00.000Z"
+	},
+	{
+		"id": "2893",
+		"group_name": "F",
+		"starting_period": "2022-05-12T11:20:00.000Z",
+		"ending_period": "2022-05-12T14:40:00.000Z"
+	},
+	{
+		"id": "2883",
+		"group_name": "F",
+		"starting_period": "2022-05-11T19:40:00.000Z",
+		"ending_period": "2022-05-11T21:00:00.000Z"
+	},
+	{
+		"id": "2872",
+		"group_name": "F",
+		"starting_period": "2022-05-11T15:00:00.000Z",
+		"ending_period": "2022-05-11T17:00:00.000Z"
+	},
+	{
+		"id": "2837",
+		"group_name": "F",
+		"starting_period": "2022-05-10T19:40:00.000Z",
+		"ending_period": "2022-05-10T21:00:00.000Z"
+	},
+	{
+		"id": "2826",
+		"group_name": "F",
+		"starting_period": "2022-05-10T15:00:00.000Z",
+		"ending_period": "2022-05-10T17:00:00.000Z"
+	},
+	{
+		"id": "2767",
+		"group_name": "F",
+		"starting_period": "2022-05-09T19:40:00.000Z",
+		"ending_period": "2022-05-09T21:00:00.000Z"
+	},
+	{
+		"id": "2756",
+		"group_name": "F",
+		"starting_period": "2022-05-09T15:00:00.000Z",
+		"ending_period": "2022-05-09T17:00:00.000Z"
+	},
+	{
+		"id": "2719",
+		"group_name": "F",
+		"starting_period": "2022-05-08T17:00:00.000Z",
+		"ending_period": "2022-05-08T18:20:00.000Z"
+	},
+	{
+		"id": "2708",
+		"group_name": "F",
+		"starting_period": "2022-05-08T09:00:00.000Z",
+		"ending_period": "2022-05-08T11:00:00.000Z"
+	},
+	{
+		"id": "2679",
+		"group_name": "F",
+		"starting_period": "2022-05-07T17:00:00.000Z",
+		"ending_period": "2022-05-07T18:20:00.000Z"
+	},
+	{
+		"id": "2668",
+		"group_name": "F",
+		"starting_period": "2022-05-07T09:00:00.000Z",
+		"ending_period": "2022-05-07T11:00:00.000Z"
+	},
+	{
+		"id": "2607",
+		"group_name": "F",
+		"starting_period": "2022-05-05T17:00:00.000Z",
+		"ending_period": "2022-05-05T18:20:00.000Z"
+	},
+	{
+		"id": "2639",
+		"group_name": "F",
+		"starting_period": "2022-05-06T17:00:00.000Z",
+		"ending_period": "2022-05-06T18:20:00.000Z"
+	},
+	{
+		"id": "2628",
+		"group_name": "F",
+		"starting_period": "2022-05-06T09:00:00.000Z",
+		"ending_period": "2022-05-06T11:00:00.000Z"
+	},
+	{
+		"id": "2563",
+		"group_name": "F",
+		"starting_period": "2022-05-04T18:20:00.000Z",
+		"ending_period": "2022-05-04T19:40:00.000Z"
+	},
+	{
+		"id": "2588",
+		"group_name": "F",
+		"starting_period": "2022-05-05T09:00:00.000Z",
+		"ending_period": "2022-05-05T11:00:00.000Z"
+	},
+	{
+		"id": "2551",
+		"group_name": "F",
+		"starting_period": "2022-05-04T11:00:00.000Z",
+		"ending_period": "2022-05-04T13:00:00.000Z"
+	},
+	{
+		"id": "2523",
+		"group_name": "F",
+		"starting_period": "2022-05-02T18:20:00.000Z",
+		"ending_period": "2022-05-02T19:40:00.000Z"
+	},
+	{
+		"id": "2511",
+		"group_name": "F",
+		"starting_period": "2022-05-02T11:00:00.000Z",
+		"ending_period": "2022-05-02T13:00:00.000Z"
+	},
+	{
+		"id": "2512",
+		"group_name": "G",
+		"starting_period": "2022-05-02T13:00:00.000Z",
+		"ending_period": "2022-05-02T15:00:00.000Z"
+	},
+	{
+		"id": "2524",
+		"group_name": "G",
+		"starting_period": "2022-05-02T18:20:00.000Z",
+		"ending_period": "2022-05-02T19:40:00.000Z"
+	},
+	{
+		"id": "2552",
+		"group_name": "G",
+		"starting_period": "2022-05-04T13:00:00.000Z",
+		"ending_period": "2022-05-04T15:00:00.000Z"
+	},
+	{
+		"id": "2593",
+		"group_name": "G",
+		"starting_period": "2022-05-05T11:00:00.000Z",
+		"ending_period": "2022-05-05T13:00:00.000Z"
+	},
+	{
+		"id": "2564",
+		"group_name": "G",
+		"starting_period": "2022-05-04T18:20:00.000Z",
+		"ending_period": "2022-05-04T19:40:00.000Z"
+	},
+	{
+		"id": "2629",
+		"group_name": "G",
+		"starting_period": "2022-05-06T11:00:00.000Z",
+		"ending_period": "2022-05-06T13:00:00.000Z"
+	},
+	{
+		"id": "2640",
+		"group_name": "G",
+		"starting_period": "2022-05-06T17:00:00.000Z",
+		"ending_period": "2022-05-06T18:20:00.000Z"
+	},
+	{
+		"id": "2608",
+		"group_name": "G",
+		"starting_period": "2022-05-05T17:00:00.000Z",
+		"ending_period": "2022-05-05T18:20:00.000Z"
+	},
+	{
+		"id": "2669",
+		"group_name": "G",
+		"starting_period": "2022-05-07T11:00:00.000Z",
+		"ending_period": "2022-05-07T13:00:00.000Z"
+	},
+	{
+		"id": "2680",
+		"group_name": "G",
+		"starting_period": "2022-05-07T17:00:00.000Z",
+		"ending_period": "2022-05-07T18:20:00.000Z"
+	},
+	{
+		"id": "2709",
+		"group_name": "G",
+		"starting_period": "2022-05-08T11:00:00.000Z",
+		"ending_period": "2022-05-08T13:00:00.000Z"
+	},
+	{
+		"id": "2720",
+		"group_name": "G",
+		"starting_period": "2022-05-08T17:00:00.000Z",
+		"ending_period": "2022-05-08T18:20:00.000Z"
+	},
+	{
+		"id": "2757",
+		"group_name": "G",
+		"starting_period": "2022-05-09T15:00:00.000Z",
+		"ending_period": "2022-05-09T17:00:00.000Z"
+	},
+	{
+		"id": "2768",
+		"group_name": "G",
+		"starting_period": "2022-05-09T19:40:00.000Z",
+		"ending_period": "2022-05-09T21:00:00.000Z"
+	},
+	{
+		"id": "2827",
+		"group_name": "G",
+		"starting_period": "2022-05-10T15:00:00.000Z",
+		"ending_period": "2022-05-10T17:00:00.000Z"
+	},
+	{
+		"id": "2838",
+		"group_name": "G",
+		"starting_period": "2022-05-10T19:40:00.000Z",
+		"ending_period": "2022-05-10T21:00:00.000Z"
+	},
+	{
+		"id": "2873",
+		"group_name": "G",
+		"starting_period": "2022-05-11T15:00:00.000Z",
+		"ending_period": "2022-05-11T17:00:00.000Z"
+	},
+	{
+		"id": "2884",
+		"group_name": "G",
+		"starting_period": "2022-05-11T19:40:00.000Z",
+		"ending_period": "2022-05-11T21:00:00.000Z"
+	},
+	{
+		"id": "2894",
+		"group_name": "G",
+		"starting_period": "2022-05-12T11:20:00.000Z",
+		"ending_period": "2022-05-12T14:40:00.000Z"
+	},
+	{
+		"id": "2915",
+		"group_name": "G",
+		"starting_period": "2022-05-12T19:40:00.000Z",
+		"ending_period": "2022-05-12T21:20:00.000Z"
+	},
+	{
+		"id": "2967",
+		"group_name": "G",
+		"starting_period": "2022-05-13T19:40:00.000Z",
+		"ending_period": "2022-05-13T21:20:00.000Z"
+	},
+	{
+		"id": "2949",
+		"group_name": "G",
+		"starting_period": "2022-05-13T11:20:00.000Z",
+		"ending_period": "2022-05-13T14:40:00.000Z"
+	},
+	{
+		"id": "3017",
+		"group_name": "G",
+		"starting_period": "2022-05-14T19:40:00.000Z",
+		"ending_period": "2022-05-14T21:20:00.000Z"
+	},
+	{
+		"id": "2997",
+		"group_name": "G",
+		"starting_period": "2022-05-14T11:20:00.000Z",
+		"ending_period": "2022-05-14T14:40:00.000Z"
+	},
+	{
+		"id": "2998",
+		"group_name": "H",
+		"starting_period": "2022-05-14T11:20:00.000Z",
+		"ending_period": "2022-05-14T14:40:00.000Z"
+	},
+	{
+		"id": "3018",
+		"group_name": "H",
+		"starting_period": "2022-05-14T19:40:00.000Z",
+		"ending_period": "2022-05-14T21:20:00.000Z"
+	},
+	{
+		"id": "2950",
+		"group_name": "H",
+		"starting_period": "2022-05-13T11:20:00.000Z",
+		"ending_period": "2022-05-13T14:40:00.000Z"
+	},
+	{
+		"id": "2968",
+		"group_name": "H",
+		"starting_period": "2022-05-13T19:40:00.000Z",
+		"ending_period": "2022-05-13T21:20:00.000Z"
+	},
+	{
+		"id": "2916",
+		"group_name": "H",
+		"starting_period": "2022-05-12T19:40:00.000Z",
+		"ending_period": "2022-05-12T21:20:00.000Z"
+	},
+	{
+		"id": "2895",
+		"group_name": "H",
+		"starting_period": "2022-05-12T11:20:00.000Z",
+		"ending_period": "2022-05-12T14:40:00.000Z"
+	},
+	{
+		"id": "2885",
+		"group_name": "H",
+		"starting_period": "2022-05-11T19:40:00.000Z",
+		"ending_period": "2022-05-11T21:00:00.000Z"
+	},
+	{
+		"id": "2862",
+		"group_name": "H",
+		"starting_period": "2022-05-11T09:00:00.000Z",
+		"ending_period": "2022-05-11T11:00:00.000Z"
+	},
+	{
+		"id": "2839",
+		"group_name": "H",
+		"starting_period": "2022-05-10T19:40:00.000Z",
+		"ending_period": "2022-05-10T21:00:00.000Z"
+	},
+	{
+		"id": "2808",
+		"group_name": "H",
+		"starting_period": "2022-05-10T09:00:00.000Z",
+		"ending_period": "2022-05-10T11:00:00.000Z"
+	},
+	{
+		"id": "2769",
+		"group_name": "H",
+		"starting_period": "2022-05-09T19:40:00.000Z",
+		"ending_period": "2022-05-09T21:00:00.000Z"
+	},
+	{
+		"id": "2746",
+		"group_name": "H",
+		"starting_period": "2022-05-09T09:00:00.000Z",
+		"ending_period": "2022-05-09T11:00:00.000Z"
+	},
+	{
+		"id": "2721",
+		"group_name": "H",
+		"starting_period": "2022-05-08T17:00:00.000Z",
+		"ending_period": "2022-05-08T18:20:00.000Z"
+	},
+	{
+		"id": "2710",
+		"group_name": "H",
+		"starting_period": "2022-05-08T11:00:00.000Z",
+		"ending_period": "2022-05-08T13:00:00.000Z"
+	},
+	{
+		"id": "2681",
+		"group_name": "H",
+		"starting_period": "2022-05-07T17:00:00.000Z",
+		"ending_period": "2022-05-07T18:20:00.000Z"
+	},
+	{
+		"id": "2670",
+		"group_name": "H",
+		"starting_period": "2022-05-07T11:00:00.000Z",
+		"ending_period": "2022-05-07T13:00:00.000Z"
+	},
+	{
+		"id": "2609",
+		"group_name": "H",
+		"starting_period": "2022-05-05T17:00:00.000Z",
+		"ending_period": "2022-05-05T18:20:00.000Z"
+	},
+	{
+		"id": "2641",
+		"group_name": "H",
+		"starting_period": "2022-05-06T17:00:00.000Z",
+		"ending_period": "2022-05-06T18:20:00.000Z"
+	},
+	{
+		"id": "2630",
+		"group_name": "H",
+		"starting_period": "2022-05-06T11:00:00.000Z",
+		"ending_period": "2022-05-06T13:00:00.000Z"
+	},
+	{
+		"id": "2565",
+		"group_name": "H",
+		"starting_period": "2022-05-04T18:20:00.000Z",
+		"ending_period": "2022-05-04T19:40:00.000Z"
+	},
+	{
+		"id": "2594",
+		"group_name": "H",
+		"starting_period": "2022-05-05T11:00:00.000Z",
+		"ending_period": "2022-05-05T13:00:00.000Z"
+	},
+	{
+		"id": "2553",
+		"group_name": "H",
+		"starting_period": "2022-05-04T13:00:00.000Z",
+		"ending_period": "2022-05-04T15:00:00.000Z"
+	},
+	{
+		"id": "2525",
+		"group_name": "H",
+		"starting_period": "2022-05-02T18:20:00.000Z",
+		"ending_period": "2022-05-02T19:40:00.000Z"
+	},
+	{
+		"id": "2513",
+		"group_name": "H",
+		"starting_period": "2022-05-02T13:00:00.000Z",
+		"ending_period": "2022-05-02T15:00:00.000Z"
+	},
+	{
+		"id": "2514",
+		"group_name": "I",
+		"starting_period": "2022-05-02T13:00:00.000Z",
+		"ending_period": "2022-05-02T15:00:00.000Z"
+	},
+	{
+		"id": "2526",
+		"group_name": "I",
+		"starting_period": "2022-05-02T19:40:00.000Z",
+		"ending_period": "2022-05-02T21:00:00.000Z"
+	},
+	{
+		"id": "2554",
+		"group_name": "I",
+		"starting_period": "2022-05-04T13:00:00.000Z",
+		"ending_period": "2022-05-04T15:00:00.000Z"
+	},
+	{
+		"id": "2595",
+		"group_name": "I",
+		"starting_period": "2022-05-05T11:00:00.000Z",
+		"ending_period": "2022-05-05T13:00:00.000Z"
+	},
+	{
+		"id": "2566",
+		"group_name": "I",
+		"starting_period": "2022-05-04T19:40:00.000Z",
+		"ending_period": "2022-05-04T21:00:00.000Z"
+	},
+	{
+		"id": "2631",
+		"group_name": "I",
+		"starting_period": "2022-05-06T11:00:00.000Z",
+		"ending_period": "2022-05-06T13:00:00.000Z"
+	},
+	{
+		"id": "2642",
+		"group_name": "I",
+		"starting_period": "2022-05-06T18:20:00.000Z",
+		"ending_period": "2022-05-06T19:40:00.000Z"
+	},
+	{
+		"id": "2616",
+		"group_name": "I",
+		"starting_period": "2022-05-05T18:20:00.000Z",
+		"ending_period": "2022-05-05T19:40:00.000Z"
+	},
+	{
+		"id": "2671",
+		"group_name": "I",
+		"starting_period": "2022-05-07T11:00:00.000Z",
+		"ending_period": "2022-05-07T13:00:00.000Z"
+	},
+	{
+		"id": "2682",
+		"group_name": "I",
+		"starting_period": "2022-05-07T18:20:00.000Z",
+		"ending_period": "2022-05-07T19:40:00.000Z"
+	},
+	{
+		"id": "2711",
+		"group_name": "I",
+		"starting_period": "2022-05-08T11:00:00.000Z",
+		"ending_period": "2022-05-08T13:00:00.000Z"
+	},
+	{
+		"id": "2722",
+		"group_name": "I",
+		"starting_period": "2022-05-08T18:20:00.000Z",
+		"ending_period": "2022-05-08T19:40:00.000Z"
+	},
+	{
+		"id": "2747",
+		"group_name": "I",
+		"starting_period": "2022-05-09T09:00:00.000Z",
+		"ending_period": "2022-05-09T11:00:00.000Z"
+	},
+	{
+		"id": "2758",
+		"group_name": "I",
+		"starting_period": "2022-05-09T17:00:00.000Z",
+		"ending_period": "2022-05-09T18:20:00.000Z"
+	},
+	{
+		"id": "2810",
+		"group_name": "I",
+		"starting_period": "2022-05-10T09:00:00.000Z",
+		"ending_period": "2022-05-10T11:00:00.000Z"
+	},
+	{
+		"id": "2828",
+		"group_name": "I",
+		"starting_period": "2022-05-10T17:00:00.000Z",
+		"ending_period": "2022-05-10T18:20:00.000Z"
+	},
+	{
+		"id": "2863",
+		"group_name": "I",
+		"starting_period": "2022-05-11T09:00:00.000Z",
+		"ending_period": "2022-05-11T11:00:00.000Z"
+	},
+	{
+		"id": "2874",
+		"group_name": "I",
+		"starting_period": "2022-05-11T17:00:00.000Z",
+		"ending_period": "2022-05-11T18:20:00.000Z"
+	},
+	{
+		"id": "2896",
+		"group_name": "I",
+		"starting_period": "2022-05-12T14:40:00.000Z",
+		"ending_period": "2022-05-12T18:00:00.000Z"
+	},
+	{
+		"id": "2919",
+		"group_name": "I",
+		"starting_period": "2022-05-12T21:20:00.000Z",
+		"ending_period": "2022-05-12T23:00:00.000Z"
+	},
+	{
+		"id": "2951",
+		"group_name": "I",
+		"starting_period": "2022-05-13T14:40:00.000Z",
+		"ending_period": "2022-05-13T18:00:00.000Z"
+	},
+	{
+		"id": "3001",
+		"group_name": "I",
+		"starting_period": "2022-05-14T14:40:00.000Z",
+		"ending_period": "2022-05-14T18:00:00.000Z"
+	},
+	{
+		"id": "2974",
+		"group_name": "I",
+		"starting_period": "2022-05-13T21:20:00.000Z",
+		"ending_period": "2022-05-13T23:00:00.000Z"
+	},
+	{
+		"id": "3022",
+		"group_name": "I",
+		"starting_period": "2022-05-14T21:20:00.000Z",
+		"ending_period": "2022-05-14T23:00:00.000Z"
+	},
+	{
+		"id": "3023",
+		"group_name": "J",
+		"starting_period": "2022-05-14T21:20:00.000Z",
+		"ending_period": "2022-05-14T23:00:00.000Z"
+	},
+	{
+		"id": "2975",
+		"group_name": "J",
+		"starting_period": "2022-05-13T21:20:00.000Z",
+		"ending_period": "2022-05-13T23:00:00.000Z"
+	},
+	{
+		"id": "3002",
+		"group_name": "J",
+		"starting_period": "2022-05-14T14:40:00.000Z",
+		"ending_period": "2022-05-14T18:00:00.000Z"
+	},
+	{
+		"id": "2952",
+		"group_name": "J",
+		"starting_period": "2022-05-13T14:40:00.000Z",
+		"ending_period": "2022-05-13T18:00:00.000Z"
+	},
+	{
+		"id": "2921",
+		"group_name": "J",
+		"starting_period": "2022-05-12T21:20:00.000Z",
+		"ending_period": "2022-05-12T23:00:00.000Z"
+	},
+	{
+		"id": "2897",
+		"group_name": "J",
+		"starting_period": "2022-05-12T14:40:00.000Z",
+		"ending_period": "2022-05-12T18:00:00.000Z"
+	},
+	{
+		"id": "2875",
+		"group_name": "J",
+		"starting_period": "2022-05-11T17:00:00.000Z",
+		"ending_period": "2022-05-11T18:20:00.000Z"
+	},
+	{
+		"id": "2864",
+		"group_name": "J",
+		"starting_period": "2022-05-11T09:00:00.000Z",
+		"ending_period": "2022-05-11T11:00:00.000Z"
+	},
+	{
+		"id": "2829",
+		"group_name": "J",
+		"starting_period": "2022-05-10T17:00:00.000Z",
+		"ending_period": "2022-05-10T18:20:00.000Z"
+	},
+	{
+		"id": "2812",
+		"group_name": "J",
+		"starting_period": "2022-05-10T09:00:00.000Z",
+		"ending_period": "2022-05-10T11:00:00.000Z"
+	},
+	{
+		"id": "2759",
+		"group_name": "J",
+		"starting_period": "2022-05-09T17:00:00.000Z",
+		"ending_period": "2022-05-09T18:20:00.000Z"
+	},
+	{
+		"id": "2748",
+		"group_name": "J",
+		"starting_period": "2022-05-09T09:00:00.000Z",
+		"ending_period": "2022-05-09T11:00:00.000Z"
+	},
+	{
+		"id": "2723",
+		"group_name": "J",
+		"starting_period": "2022-05-08T18:20:00.000Z",
+		"ending_period": "2022-05-08T19:40:00.000Z"
+	},
+	{
+		"id": "2712",
+		"group_name": "J",
+		"starting_period": "2022-05-08T13:00:00.000Z",
+		"ending_period": "2022-05-08T15:00:00.000Z"
+	},
+	{
+		"id": "2683",
+		"group_name": "J",
+		"starting_period": "2022-05-07T18:20:00.000Z",
+		"ending_period": "2022-05-07T19:40:00.000Z"
+	},
+	{
+		"id": "2672",
+		"group_name": "J",
+		"starting_period": "2022-05-07T13:00:00.000Z",
+		"ending_period": "2022-05-07T15:00:00.000Z"
+	},
+	{
+		"id": "2617",
+		"group_name": "J",
+		"starting_period": "2022-05-05T18:20:00.000Z",
+		"ending_period": "2022-05-05T19:40:00.000Z"
+	},
+	{
+		"id": "2643",
+		"group_name": "J",
+		"starting_period": "2022-05-06T18:20:00.000Z",
+		"ending_period": "2022-05-06T19:40:00.000Z"
+	},
+	{
+		"id": "2632",
+		"group_name": "J",
+		"starting_period": "2022-05-06T13:00:00.000Z",
+		"ending_period": "2022-05-06T15:00:00.000Z"
+	},
+	{
+		"id": "2567",
+		"group_name": "J",
+		"starting_period": "2022-05-04T19:40:00.000Z",
+		"ending_period": "2022-05-04T21:00:00.000Z"
+	},
+	{
+		"id": "2596",
+		"group_name": "J",
+		"starting_period": "2022-05-05T13:00:00.000Z",
+		"ending_period": "2022-05-05T15:00:00.000Z"
+	},
+	{
+		"id": "2555",
+		"group_name": "J",
+		"starting_period": "2022-05-04T15:00:00.000Z",
+		"ending_period": "2022-05-04T17:00:00.000Z"
+	},
+	{
+		"id": "2527",
+		"group_name": "J",
+		"starting_period": "2022-05-02T19:40:00.000Z",
+		"ending_period": "2022-05-02T21:00:00.000Z"
+	},
+	{
+		"id": "2515",
+		"group_name": "J",
+		"starting_period": "2022-05-02T15:00:00.000Z",
+		"ending_period": "2022-05-02T17:00:00.000Z"
+	},
+	{
+		"id": "2516",
+		"group_name": "K",
+		"starting_period": "2022-05-02T15:00:00.000Z",
+		"ending_period": "2022-05-02T17:00:00.000Z"
+	},
+	{
+		"id": "2528",
+		"group_name": "K",
+		"starting_period": "2022-05-02T19:40:00.000Z",
+		"ending_period": "2022-05-02T21:00:00.000Z"
+	},
+	{
+		"id": "2556",
+		"group_name": "K",
+		"starting_period": "2022-05-04T15:00:00.000Z",
+		"ending_period": "2022-05-04T17:00:00.000Z"
+	},
+	{
+		"id": "2597",
+		"group_name": "K",
+		"starting_period": "2022-05-05T13:00:00.000Z",
+		"ending_period": "2022-05-05T15:00:00.000Z"
+	},
+	{
+		"id": "2568",
+		"group_name": "K",
+		"starting_period": "2022-05-04T19:40:00.000Z",
+		"ending_period": "2022-05-04T21:00:00.000Z"
+	},
+	{
+		"id": "2633",
+		"group_name": "K",
+		"starting_period": "2022-05-06T13:00:00.000Z",
+		"ending_period": "2022-05-06T15:00:00.000Z"
+	},
+	{
+		"id": "2644",
+		"group_name": "K",
+		"starting_period": "2022-05-06T18:20:00.000Z",
+		"ending_period": "2022-05-06T19:40:00.000Z"
+	},
+	{
+		"id": "2618",
+		"group_name": "K",
+		"starting_period": "2022-05-05T18:20:00.000Z",
+		"ending_period": "2022-05-05T19:40:00.000Z"
+	},
+	{
+		"id": "2673",
+		"group_name": "K",
+		"starting_period": "2022-05-07T13:00:00.000Z",
+		"ending_period": "2022-05-07T15:00:00.000Z"
+	},
+	{
+		"id": "2684",
+		"group_name": "K",
+		"starting_period": "2022-05-07T18:20:00.000Z",
+		"ending_period": "2022-05-07T19:40:00.000Z"
+	},
+	{
+		"id": "2713",
+		"group_name": "K",
+		"starting_period": "2022-05-08T13:00:00.000Z",
+		"ending_period": "2022-05-08T15:00:00.000Z"
+	},
+	{
+		"id": "2724",
+		"group_name": "K",
+		"starting_period": "2022-05-08T18:20:00.000Z",
+		"ending_period": "2022-05-08T19:40:00.000Z"
+	},
+	{
+		"id": "2749",
+		"group_name": "K",
+		"starting_period": "2022-05-09T11:00:00.000Z",
+		"ending_period": "2022-05-09T13:00:00.000Z"
+	},
+	{
+		"id": "2760",
+		"group_name": "K",
+		"starting_period": "2022-05-09T17:00:00.000Z",
+		"ending_period": "2022-05-09T18:20:00.000Z"
+	},
+	{
+		"id": "2814",
+		"group_name": "K",
+		"starting_period": "2022-05-10T11:00:00.000Z",
+		"ending_period": "2022-05-10T13:00:00.000Z"
+	},
+	{
+		"id": "2830",
+		"group_name": "K",
+		"starting_period": "2022-05-10T17:00:00.000Z",
+		"ending_period": "2022-05-10T18:20:00.000Z"
+	},
+	{
+		"id": "2865",
+		"group_name": "K",
+		"starting_period": "2022-05-11T11:00:00.000Z",
+		"ending_period": "2022-05-11T13:00:00.000Z"
+	},
+	{
+		"id": "2876",
+		"group_name": "K",
+		"starting_period": "2022-05-11T17:00:00.000Z",
+		"ending_period": "2022-05-11T18:20:00.000Z"
+	},
+	{
+		"id": "2899",
+		"group_name": "K",
+		"starting_period": "2022-05-12T14:40:00.000Z",
+		"ending_period": "2022-05-12T18:00:00.000Z"
+	},
+	{
+		"id": "2922",
+		"group_name": "K",
+		"starting_period": "2022-05-12T21:20:00.000Z",
+		"ending_period": "2022-05-12T23:00:00.000Z"
+	},
+	{
+		"id": "2953",
+		"group_name": "K",
+		"starting_period": "2022-05-13T14:40:00.000Z",
+		"ending_period": "2022-05-13T18:00:00.000Z"
+	},
+	{
+		"id": "3003",
+		"group_name": "K",
+		"starting_period": "2022-05-14T14:40:00.000Z",
+		"ending_period": "2022-05-14T18:00:00.000Z"
+	},
+	{
+		"id": "2976",
+		"group_name": "K",
+		"starting_period": "2022-05-13T21:20:00.000Z",
+		"ending_period": "2022-05-13T23:00:00.000Z"
+	},
+	{
+		"id": "3024",
+		"group_name": "K",
+		"starting_period": "2022-05-14T21:20:00.000Z",
+		"ending_period": "2022-05-14T23:00:00.000Z"
+	},
+	{
+		"id": "3025",
+		"group_name": "L",
+		"starting_period": "2022-05-14T21:20:00.000Z",
+		"ending_period": "2022-05-14T23:00:00.000Z"
+	},
+	{
+		"id": "2978",
+		"group_name": "L",
+		"starting_period": "2022-05-13T21:20:00.000Z",
+		"ending_period": "2022-05-13T23:00:00.000Z"
+	},
+	{
+		"id": "3004",
+		"group_name": "L",
+		"starting_period": "2022-05-14T14:40:00.000Z",
+		"ending_period": "2022-05-14T18:00:00.000Z"
+	},
+	{
+		"id": "2954",
+		"group_name": "L",
+		"starting_period": "2022-05-13T14:40:00.000Z",
+		"ending_period": "2022-05-13T18:00:00.000Z"
+	},
+	{
+		"id": "2924",
+		"group_name": "L",
+		"starting_period": "2022-05-12T21:20:00.000Z",
+		"ending_period": "2022-05-12T23:00:00.000Z"
+	},
+	{
+		"id": "2900",
+		"group_name": "L",
+		"starting_period": "2022-05-12T14:40:00.000Z",
+		"ending_period": "2022-05-12T18:00:00.000Z"
+	},
+	{
+		"id": "2877",
+		"group_name": "L",
+		"starting_period": "2022-05-11T17:00:00.000Z",
+		"ending_period": "2022-05-11T18:20:00.000Z"
+	},
+	{
+		"id": "2866",
+		"group_name": "L",
+		"starting_period": "2022-05-11T11:00:00.000Z",
+		"ending_period": "2022-05-11T13:00:00.000Z"
+	},
+	{
+		"id": "2831",
+		"group_name": "L",
+		"starting_period": "2022-05-10T17:00:00.000Z",
+		"ending_period": "2022-05-10T18:20:00.000Z"
+	},
+	{
+		"id": "2816",
+		"group_name": "L",
+		"starting_period": "2022-05-10T11:00:00.000Z",
+		"ending_period": "2022-05-10T13:00:00.000Z"
+	},
+	{
+		"id": "2761",
+		"group_name": "L",
+		"starting_period": "2022-05-09T17:00:00.000Z",
+		"ending_period": "2022-05-09T18:20:00.000Z"
+	},
+	{
+		"id": "2750",
+		"group_name": "L",
+		"starting_period": "2022-05-09T11:00:00.000Z",
+		"ending_period": "2022-05-09T13:00:00.000Z"
+	},
+	{
+		"id": "2725",
+		"group_name": "L",
+		"starting_period": "2022-05-08T18:20:00.000Z",
+		"ending_period": "2022-05-08T19:40:00.000Z"
+	},
+	{
+		"id": "2714",
+		"group_name": "L",
+		"starting_period": "2022-05-08T13:00:00.000Z",
+		"ending_period": "2022-05-08T15:00:00.000Z"
+	},
+	{
+		"id": "2685",
+		"group_name": "L",
+		"starting_period": "2022-05-07T18:20:00.000Z",
+		"ending_period": "2022-05-07T19:40:00.000Z"
+	},
+	{
+		"id": "2674",
+		"group_name": "L",
+		"starting_period": "2022-05-07T13:00:00.000Z",
+		"ending_period": "2022-05-07T15:00:00.000Z"
+	},
+	{
+		"id": "2619",
+		"group_name": "L",
+		"starting_period": "2022-05-05T18:20:00.000Z",
+		"ending_period": "2022-05-05T19:40:00.000Z"
+	},
+	{
+		"id": "2645",
+		"group_name": "L",
+		"starting_period": "2022-05-06T18:20:00.000Z",
+		"ending_period": "2022-05-06T19:40:00.000Z"
+	},
+	{
+		"id": "2634",
+		"group_name": "L",
+		"starting_period": "2022-05-06T13:00:00.000Z",
+		"ending_period": "2022-05-06T15:00:00.000Z"
+	},
+	{
+		"id": "2569",
+		"group_name": "L",
+		"starting_period": "2022-05-04T19:40:00.000Z",
+		"ending_period": "2022-05-04T21:00:00.000Z"
+	},
+	{
+		"id": "2598",
+		"group_name": "L",
+		"starting_period": "2022-05-05T13:00:00.000Z",
+		"ending_period": "2022-05-05T15:00:00.000Z"
+	},
+	{
+		"id": "2557",
+		"group_name": "L",
+		"starting_period": "2022-05-04T15:00:00.000Z",
+		"ending_period": "2022-05-04T17:00:00.000Z"
+	},
+	{
+		"id": "2529",
+		"group_name": "L",
+		"starting_period": "2022-05-02T19:40:00.000Z",
+		"ending_period": "2022-05-02T21:00:00.000Z"
+	},
+	{
+		"id": "2517",
+		"group_name": "L",
+		"starting_period": "2022-05-02T15:00:00.000Z",
+		"ending_period": "2022-05-02T17:00:00.000Z"
+	},
+	{
+		"id": "2813",
+		"group_name": "M",
+		"starting_period": "2022-05-10T05:00:00.000Z",
+		"ending_period": "2022-05-10T08:00:00.000Z"
+	},
+	{
+		"id": "2840",
+		"group_name": "M",
+		"starting_period": "2022-05-11T05:00:00.000Z",
+		"ending_period": "2022-05-11T08:00:00.000Z"
+	},
+	{
+		"id": "2788",
+		"group_name": "M",
+		"starting_period": "2022-05-09T05:00:00.000Z",
+		"ending_period": "2022-05-09T08:00:00.000Z"
+	},
+	{
+		"id": "2886",
+		"group_name": "M",
+		"starting_period": "2022-05-12T05:00:00.000Z",
+		"ending_period": "2022-05-12T08:00:00.000Z"
+	},
+	{
+		"id": "2932",
+		"group_name": "M",
+		"starting_period": "2022-05-13T05:00:00.000Z",
+		"ending_period": "2022-05-13T08:00:00.000Z"
+	},
+	{
+		"id": "2979",
+		"group_name": "M",
+		"starting_period": "2022-05-14T05:00:00.000Z",
+		"ending_period": "2022-05-14T08:00:00.000Z"
+	},
+	{
+		"id": "2981",
+		"group_name": "N",
+		"starting_period": "2022-05-14T05:00:00.000Z",
+		"ending_period": "2022-05-14T08:00:00.000Z"
+	},
+	{
+		"id": "2933",
+		"group_name": "N",
+		"starting_period": "2022-05-13T05:00:00.000Z",
+		"ending_period": "2022-05-13T08:00:00.000Z"
+	},
+	{
+		"id": "2887",
+		"group_name": "N",
+		"starting_period": "2022-05-12T05:00:00.000Z",
+		"ending_period": "2022-05-12T08:00:00.000Z"
+	},
+	{
+		"id": "2789",
+		"group_name": "N",
+		"starting_period": "2022-05-09T05:00:00.000Z",
+		"ending_period": "2022-05-09T08:00:00.000Z"
+	},
+	{
+		"id": "2841",
+		"group_name": "N",
+		"starting_period": "2022-05-11T05:00:00.000Z",
+		"ending_period": "2022-05-11T08:00:00.000Z"
+	},
+	{
+		"id": "2815",
+		"group_name": "N",
+		"starting_period": "2022-05-10T05:00:00.000Z",
+		"ending_period": "2022-05-10T08:00:00.000Z"
+	},
+	{
+		"id": "2818",
+		"group_name": "O",
+		"starting_period": "2022-05-10T05:00:00.000Z",
+		"ending_period": "2022-05-10T08:00:00.000Z"
+	},
+	{
+		"id": "2842",
+		"group_name": "O",
+		"starting_period": "2022-05-11T05:00:00.000Z",
+		"ending_period": "2022-05-11T08:00:00.000Z"
+	},
+	{
+		"id": "2790",
+		"group_name": "O",
+		"starting_period": "2022-05-09T05:00:00.000Z",
+		"ending_period": "2022-05-09T08:00:00.000Z"
+	},
+	{
+		"id": "2898",
+		"group_name": "O",
+		"starting_period": "2022-05-12T05:00:00.000Z",
+		"ending_period": "2022-05-12T08:00:00.000Z"
+	},
+	{
+		"id": "2934",
+		"group_name": "O",
+		"starting_period": "2022-05-13T05:00:00.000Z",
+		"ending_period": "2022-05-13T08:00:00.000Z"
+	},
+	{
+		"id": "2982",
+		"group_name": "O",
+		"starting_period": "2022-05-14T05:00:00.000Z",
+		"ending_period": "2022-05-14T08:00:00.000Z"
+	},
+	{
+		"id": "2972",
+		"group_name": "P",
+		"starting_period": "2022-05-13T21:20:00.000Z",
+		"ending_period": "2022-05-13T23:00:00.000Z"
+	},
+	{
+		"id": "2930",
+		"group_name": "P",
+		"starting_period": "2022-05-12T21:20:00.000Z",
+		"ending_period": "2022-05-12T23:00:00.000Z"
+	},
+	{
+		"id": "2956",
+		"group_name": "P",
+		"starting_period": "2022-05-13T14:40:00.000Z",
+		"ending_period": "2022-05-13T18:00:00.000Z"
+	},
+	{
+		"id": "2918",
+		"group_name": "P",
+		"starting_period": "2022-05-12T14:40:00.000Z",
+		"ending_period": "2022-05-12T18:00:00.000Z"
+	},
+	{
+		"id": "2857",
+		"group_name": "P",
+		"starting_period": "2022-05-11T18:20:00.000Z",
+		"ending_period": "2022-05-11T19:40:00.000Z"
+	},
+	{
+		"id": "2849",
+		"group_name": "P",
+		"starting_period": "2022-05-11T11:00:00.000Z",
+		"ending_period": "2022-05-11T13:00:00.000Z"
+	},
+	{
+		"id": "3026",
+		"group_name": "P",
+		"starting_period": "2022-05-14T21:20:00.000Z",
+		"ending_period": "2022-05-14T23:00:00.000Z"
+	},
+	{
+		"id": "3006",
+		"group_name": "P",
+		"starting_period": "2022-05-14T14:40:00.000Z",
+		"ending_period": "2022-05-14T18:00:00.000Z"
+	},
+	{
+		"id": "2797",
+		"group_name": "P",
+		"starting_period": "2022-05-10T11:00:00.000Z",
+		"ending_period": "2022-05-10T13:00:00.000Z"
+	},
+	{
+		"id": "2805",
+		"group_name": "P",
+		"starting_period": "2022-05-10T18:20:00.000Z",
+		"ending_period": "2022-05-10T19:40:00.000Z"
+	},
+	{
+		"id": "2773",
+		"group_name": "P",
+		"starting_period": "2022-05-09T11:00:00.000Z",
+		"ending_period": "2022-05-09T13:00:00.000Z"
+	},
+	{
+		"id": "2782",
+		"group_name": "P",
+		"starting_period": "2022-05-09T18:20:00.000Z",
+		"ending_period": "2022-05-09T19:40:00.000Z"
+	},
+	{
+		"id": "2690",
+		"group_name": "P",
+		"starting_period": "2022-05-07T09:00:00.000Z",
+		"ending_period": "2022-05-07T11:00:00.000Z"
+	},
+	{
+		"id": "2698",
+		"group_name": "P",
+		"starting_period": "2022-05-07T17:00:00.000Z",
+		"ending_period": "2022-05-07T18:20:00.000Z"
+	},
+	{
+		"id": "2730",
+		"group_name": "P",
+		"starting_period": "2022-05-08T09:00:00.000Z",
+		"ending_period": "2022-05-08T11:00:00.000Z"
+	},
+	{
+		"id": "2738",
+		"group_name": "P",
+		"starting_period": "2022-05-08T17:00:00.000Z",
+		"ending_period": "2022-05-08T18:20:00.000Z"
+	},
+	{
+		"id": "2536",
+		"group_name": "P",
+		"starting_period": "2022-05-02T15:00:00.000Z",
+		"ending_period": "2022-05-02T17:00:00.000Z"
+	},
+	{
+		"id": "2589",
+		"group_name": "P",
+		"starting_period": "2022-05-05T09:00:00.000Z",
+		"ending_period": "2022-05-05T11:00:00.000Z"
+	},
+	{
+		"id": "2584",
+		"group_name": "P",
+		"starting_period": "2022-05-04T19:40:00.000Z",
+		"ending_period": "2022-05-04T21:00:00.000Z"
+	},
+	{
+		"id": "2544",
+		"group_name": "P",
+		"starting_period": "2022-05-02T19:40:00.000Z",
+		"ending_period": "2022-05-02T21:00:00.000Z"
+	},
+	{
+		"id": "2576",
+		"group_name": "P",
+		"starting_period": "2022-05-04T15:00:00.000Z",
+		"ending_period": "2022-05-04T17:00:00.000Z"
+	},
+	{
+		"id": "2610",
+		"group_name": "P",
+		"starting_period": "2022-05-05T17:00:00.000Z",
+		"ending_period": "2022-05-05T18:20:00.000Z"
+	},
+	{
+		"id": "2650",
+		"group_name": "P",
+		"starting_period": "2022-05-06T09:00:00.000Z",
+		"ending_period": "2022-05-06T11:00:00.000Z"
+	},
+	{
+		"id": "2658",
+		"group_name": "P",
+		"starting_period": "2022-05-06T17:00:00.000Z",
+		"ending_period": "2022-05-06T18:20:00.000Z"
+	},
+	{
+		"id": "2659",
+		"group_name": "Q",
+		"starting_period": "2022-05-06T17:00:00.000Z",
+		"ending_period": "2022-05-06T18:20:00.000Z"
+	},
+	{
+		"id": "2652",
+		"group_name": "Q",
+		"starting_period": "2022-05-06T11:00:00.000Z",
+		"ending_period": "2022-05-06T13:00:00.000Z"
+	},
+	{
+		"id": "2611",
+		"group_name": "Q",
+		"starting_period": "2022-05-05T17:00:00.000Z",
+		"ending_period": "2022-05-05T18:20:00.000Z"
+	},
+	{
+		"id": "2591",
+		"group_name": "Q",
+		"starting_period": "2022-05-05T11:00:00.000Z",
+		"ending_period": "2022-05-05T13:00:00.000Z"
+	},
+	{
+		"id": "2577",
+		"group_name": "Q",
+		"starting_period": "2022-05-04T15:00:00.000Z",
+		"ending_period": "2022-05-04T17:00:00.000Z"
+	},
+	{
+		"id": "2545",
+		"group_name": "Q",
+		"starting_period": "2022-05-02T19:40:00.000Z",
+		"ending_period": "2022-05-02T21:00:00.000Z"
+	},
+	{
+		"id": "2585",
+		"group_name": "Q",
+		"starting_period": "2022-05-04T19:40:00.000Z",
+		"ending_period": "2022-05-04T21:00:00.000Z"
+	},
+	{
+		"id": "2537",
+		"group_name": "Q",
+		"starting_period": "2022-05-02T15:00:00.000Z",
+		"ending_period": "2022-05-02T17:00:00.000Z"
+	},
+	{
+		"id": "2739",
+		"group_name": "Q",
+		"starting_period": "2022-05-08T17:00:00.000Z",
+		"ending_period": "2022-05-08T18:20:00.000Z"
+	},
+	{
+		"id": "2732",
+		"group_name": "Q",
+		"starting_period": "2022-05-08T11:00:00.000Z",
+		"ending_period": "2022-05-08T13:00:00.000Z"
+	},
+	{
+		"id": "2699",
+		"group_name": "Q",
+		"starting_period": "2022-05-07T17:00:00.000Z",
+		"ending_period": "2022-05-07T18:20:00.000Z"
+	},
+	{
+		"id": "2692",
+		"group_name": "Q",
+		"starting_period": "2022-05-07T11:00:00.000Z",
+		"ending_period": "2022-05-07T13:00:00.000Z"
+	},
+	{
+		"id": "2783",
+		"group_name": "Q",
+		"starting_period": "2022-05-09T18:20:00.000Z",
+		"ending_period": "2022-05-09T19:40:00.000Z"
+	},
+	{
+		"id": "2775",
+		"group_name": "Q",
+		"starting_period": "2022-05-09T13:00:00.000Z",
+		"ending_period": "2022-05-09T15:00:00.000Z"
+	},
+	{
+		"id": "2806",
+		"group_name": "Q",
+		"starting_period": "2022-05-10T18:20:00.000Z",
+		"ending_period": "2022-05-10T19:40:00.000Z"
+	},
+	{
+		"id": "2798",
+		"group_name": "Q",
+		"starting_period": "2022-05-10T13:00:00.000Z",
+		"ending_period": "2022-05-10T15:00:00.000Z"
+	},
+	{
+		"id": "3007",
+		"group_name": "Q",
+		"starting_period": "2022-05-14T14:40:00.000Z",
+		"ending_period": "2022-05-14T18:00:00.000Z"
+	},
+	{
+		"id": "3027",
+		"group_name": "Q",
+		"starting_period": "2022-05-14T21:20:00.000Z",
+		"ending_period": "2022-05-14T23:00:00.000Z"
+	},
+	{
+		"id": "2850",
+		"group_name": "Q",
+		"starting_period": "2022-05-11T13:00:00.000Z",
+		"ending_period": "2022-05-11T15:00:00.000Z"
+	},
+	{
+		"id": "2858",
+		"group_name": "Q",
+		"starting_period": "2022-05-11T18:20:00.000Z",
+		"ending_period": "2022-05-11T19:40:00.000Z"
+	},
+	{
+		"id": "2920",
+		"group_name": "Q",
+		"starting_period": "2022-05-12T14:40:00.000Z",
+		"ending_period": "2022-05-12T18:00:00.000Z"
+	},
+	{
+		"id": "2957",
+		"group_name": "Q",
+		"starting_period": "2022-05-13T14:40:00.000Z",
+		"ending_period": "2022-05-13T18:00:00.000Z"
+	},
+	{
+		"id": "2931",
+		"group_name": "Q",
+		"starting_period": "2022-05-12T21:20:00.000Z",
+		"ending_period": "2022-05-12T23:00:00.000Z"
+	},
+	{
+		"id": "2973",
+		"group_name": "Q",
+		"starting_period": "2022-05-13T21:20:00.000Z",
+		"ending_period": "2022-05-13T23:00:00.000Z"
+	},
+	{
+		"id": "2945",
+		"group_name": "R",
+		"starting_period": "2022-05-13T11:20:00.000Z",
+		"ending_period": "2022-05-13T14:40:00.000Z"
+	},
+	{
+		"id": "2999",
+		"group_name": "R",
+		"starting_period": "2022-05-14T11:20:00.000Z",
+		"ending_period": "2022-05-14T14:40:00.000Z"
+	},
+	{
+		"id": "3019",
+		"group_name": "R",
+		"starting_period": "2022-05-14T19:40:00.000Z",
+		"ending_period": "2022-05-14T21:20:00.000Z"
+	},
+	{
+		"id": "2927",
+		"group_name": "R",
+		"starting_period": "2022-05-12T19:40:00.000Z",
+		"ending_period": "2022-05-12T21:20:00.000Z"
+	},
+	{
+		"id": "2969",
+		"group_name": "R",
+		"starting_period": "2022-05-13T19:40:00.000Z",
+		"ending_period": "2022-05-13T21:20:00.000Z"
+	},
+	{
+		"id": "2912",
+		"group_name": "R",
+		"starting_period": "2022-05-12T11:20:00.000Z",
+		"ending_period": "2022-05-12T14:40:00.000Z"
+	},
+	{
+		"id": "2859",
+		"group_name": "R",
+		"starting_period": "2022-05-11T18:20:00.000Z",
+		"ending_period": "2022-05-11T19:40:00.000Z"
+	},
+	{
+		"id": "2851",
+		"group_name": "R",
+		"starting_period": "2022-05-11T13:00:00.000Z",
+		"ending_period": "2022-05-11T15:00:00.000Z"
+	},
+	{
+		"id": "2799",
+		"group_name": "R",
+		"starting_period": "2022-05-10T13:00:00.000Z",
+		"ending_period": "2022-05-10T15:00:00.000Z"
+	},
+	{
+		"id": "2807",
+		"group_name": "R",
+		"starting_period": "2022-05-10T18:20:00.000Z",
+		"ending_period": "2022-05-10T19:40:00.000Z"
+	},
+	{
+		"id": "2776",
+		"group_name": "R",
+		"starting_period": "2022-05-09T13:00:00.000Z",
+		"ending_period": "2022-05-09T15:00:00.000Z"
+	},
+	{
+		"id": "2784",
+		"group_name": "R",
+		"starting_period": "2022-05-09T18:20:00.000Z",
+		"ending_period": "2022-05-09T19:40:00.000Z"
+	},
+	{
+		"id": "2700",
+		"group_name": "R",
+		"starting_period": "2022-05-07T17:00:00.000Z",
+		"ending_period": "2022-05-07T18:20:00.000Z"
+	},
+	{
+		"id": "2691",
+		"group_name": "R",
+		"starting_period": "2022-05-07T09:00:00.000Z",
+		"ending_period": "2022-05-07T11:00:00.000Z"
+	},
+	{
+		"id": "2740",
+		"group_name": "R",
+		"starting_period": "2022-05-08T17:00:00.000Z",
+		"ending_period": "2022-05-08T18:20:00.000Z"
+	},
+	{
+		"id": "2731",
+		"group_name": "R",
+		"starting_period": "2022-05-08T09:00:00.000Z",
+		"ending_period": "2022-05-08T11:00:00.000Z"
+	},
+	{
+		"id": "2533",
+		"group_name": "R",
+		"starting_period": "2022-05-02T11:00:00.000Z",
+		"ending_period": "2022-05-02T13:00:00.000Z"
+	},
+	{
+		"id": "2541",
+		"group_name": "R",
+		"starting_period": "2022-05-02T18:20:00.000Z",
+		"ending_period": "2022-05-02T19:40:00.000Z"
+	},
+	{
+		"id": "2581",
+		"group_name": "R",
+		"starting_period": "2022-05-04T18:20:00.000Z",
+		"ending_period": "2022-05-04T19:40:00.000Z"
+	},
+	{
+		"id": "2590",
+		"group_name": "R",
+		"starting_period": "2022-05-05T09:00:00.000Z",
+		"ending_period": "2022-05-05T11:00:00.000Z"
+	},
+	{
+		"id": "2573",
+		"group_name": "R",
+		"starting_period": "2022-05-04T11:00:00.000Z",
+		"ending_period": "2022-05-04T13:00:00.000Z"
+	},
+	{
+		"id": "2612",
+		"group_name": "R",
+		"starting_period": "2022-05-05T17:00:00.000Z",
+		"ending_period": "2022-05-05T18:20:00.000Z"
+	},
+	{
+		"id": "2660",
+		"group_name": "R",
+		"starting_period": "2022-05-06T17:00:00.000Z",
+		"ending_period": "2022-05-06T18:20:00.000Z"
+	},
+	{
+		"id": "2651",
+		"group_name": "R",
+		"starting_period": "2022-05-06T09:00:00.000Z",
+		"ending_period": "2022-05-06T11:00:00.000Z"
+	},
+	{
+		"id": "2624",
+		"group_name": "S",
+		"starting_period": "2022-05-05T19:40:00.000Z",
+		"ending_period": "2022-05-05T21:00:00.000Z"
+	},
+	{
+		"id": "2601",
+		"group_name": "S",
+		"starting_period": "2022-05-05T15:00:00.000Z",
+		"ending_period": "2022-05-05T17:00:00.000Z"
+	},
+	{
+		"id": "2574",
+		"group_name": "S",
+		"starting_period": "2022-05-04T13:00:00.000Z",
+		"ending_period": "2022-05-04T15:00:00.000Z"
+	},
+	{
+		"id": "2582",
+		"group_name": "S",
+		"starting_period": "2022-05-04T18:20:00.000Z",
+		"ending_period": "2022-05-04T19:40:00.000Z"
+	},
+	{
+		"id": "2542",
+		"group_name": "S",
+		"starting_period": "2022-05-02T18:20:00.000Z",
+		"ending_period": "2022-05-02T19:40:00.000Z"
+	},
+	{
+		"id": "2534",
+		"group_name": "S",
+		"starting_period": "2022-05-02T13:00:00.000Z",
+		"ending_period": "2022-05-02T15:00:00.000Z"
+	},
+	{
+		"id": "2696",
+		"group_name": "S",
+		"starting_period": "2022-05-07T15:00:00.000Z",
+		"ending_period": "2022-05-07T17:00:00.000Z"
+	},
+	{
+		"id": "2704",
+		"group_name": "S",
+		"starting_period": "2022-05-07T19:40:00.000Z",
+		"ending_period": "2022-05-07T21:00:00.000Z"
+	},
+	{
+		"id": "2736",
+		"group_name": "S",
+		"starting_period": "2022-05-08T15:00:00.000Z",
+		"ending_period": "2022-05-08T17:00:00.000Z"
+	},
+	{
+		"id": "2744",
+		"group_name": "S",
+		"starting_period": "2022-05-08T19:40:00.000Z",
+		"ending_period": "2022-05-08T21:00:00.000Z"
+	},
+	{
+		"id": "2656",
+		"group_name": "S",
+		"starting_period": "2022-05-06T15:00:00.000Z",
+		"ending_period": "2022-05-06T17:00:00.000Z"
+	},
+	{
+		"id": "2664",
+		"group_name": "S",
+		"starting_period": "2022-05-06T19:40:00.000Z",
+		"ending_period": "2022-05-06T21:00:00.000Z"
+	},
+	{
+		"id": "2770",
+		"group_name": "S",
+		"starting_period": "2022-05-09T09:00:00.000Z",
+		"ending_period": "2022-05-09T11:00:00.000Z"
+	},
+	{
+		"id": "2802",
+		"group_name": "S",
+		"starting_period": "2022-05-10T17:00:00.000Z",
+		"ending_period": "2022-05-10T18:20:00.000Z"
+	},
+	{
+		"id": "2779",
+		"group_name": "S",
+		"starting_period": "2022-05-09T17:00:00.000Z",
+		"ending_period": "2022-05-09T18:20:00.000Z"
+	},
+	{
+		"id": "2794",
+		"group_name": "S",
+		"starting_period": "2022-05-10T09:00:00.000Z",
+		"ending_period": "2022-05-10T11:00:00.000Z"
+	},
+	{
+		"id": "2846",
+		"group_name": "S",
+		"starting_period": "2022-05-11T09:00:00.000Z",
+		"ending_period": "2022-05-11T11:00:00.000Z"
+	},
+	{
+		"id": "2854",
+		"group_name": "S",
+		"starting_period": "2022-05-11T17:00:00.000Z",
+		"ending_period": "2022-05-11T18:20:00.000Z"
+	},
+	{
+		"id": "2914",
+		"group_name": "S",
+		"starting_period": "2022-05-12T11:20:00.000Z",
+		"ending_period": "2022-05-12T14:40:00.000Z"
+	},
+	{
+		"id": "2970",
+		"group_name": "S",
+		"starting_period": "2022-05-13T19:40:00.000Z",
+		"ending_period": "2022-05-13T21:20:00.000Z"
+	},
+	{
+		"id": "2928",
+		"group_name": "S",
+		"starting_period": "2022-05-12T19:40:00.000Z",
+		"ending_period": "2022-05-12T21:20:00.000Z"
+	},
+	{
+		"id": "3020",
+		"group_name": "S",
+		"starting_period": "2022-05-14T19:40:00.000Z",
+		"ending_period": "2022-05-14T21:20:00.000Z"
+	},
+	{
+		"id": "3000",
+		"group_name": "S",
+		"starting_period": "2022-05-14T11:20:00.000Z",
+		"ending_period": "2022-05-14T14:40:00.000Z"
+	},
+	{
+		"id": "2946",
+		"group_name": "S",
+		"starting_period": "2022-05-13T11:20:00.000Z",
+		"ending_period": "2022-05-13T14:40:00.000Z"
+	},
+	{
+		"id": "3005",
+		"group_name": "T",
+		"starting_period": "2022-05-14T14:40:00.000Z",
+		"ending_period": "2022-05-14T18:00:00.000Z"
+	},
+	{
+		"id": "3021",
+		"group_name": "T",
+		"starting_period": "2022-05-14T19:40:00.000Z",
+		"ending_period": "2022-05-14T21:20:00.000Z"
+	},
+	{
+		"id": "2929",
+		"group_name": "T",
+		"starting_period": "2022-05-12T19:40:00.000Z",
+		"ending_period": "2022-05-12T21:20:00.000Z"
+	},
+	{
+		"id": "2955",
+		"group_name": "T",
+		"starting_period": "2022-05-13T14:40:00.000Z",
+		"ending_period": "2022-05-13T18:00:00.000Z"
+	},
+	{
+		"id": "2971",
+		"group_name": "T",
+		"starting_period": "2022-05-13T19:40:00.000Z",
+		"ending_period": "2022-05-13T21:20:00.000Z"
+	},
+	{
+		"id": "2917",
+		"group_name": "T",
+		"starting_period": "2022-05-12T14:40:00.000Z",
+		"ending_period": "2022-05-12T18:00:00.000Z"
+	},
+	{
+		"id": "2855",
+		"group_name": "T",
+		"starting_period": "2022-05-11T17:00:00.000Z",
+		"ending_period": "2022-05-11T18:20:00.000Z"
+	},
+	{
+		"id": "2847",
+		"group_name": "T",
+		"starting_period": "2022-05-11T09:00:00.000Z",
+		"ending_period": "2022-05-11T11:00:00.000Z"
+	},
+	{
+		"id": "2795",
+		"group_name": "T",
+		"starting_period": "2022-05-10T09:00:00.000Z",
+		"ending_period": "2022-05-10T11:00:00.000Z"
+	},
+	{
+		"id": "2780",
+		"group_name": "T",
+		"starting_period": "2022-05-09T17:00:00.000Z",
+		"ending_period": "2022-05-09T18:20:00.000Z"
+	},
+	{
+		"id": "2803",
+		"group_name": "T",
+		"starting_period": "2022-05-10T17:00:00.000Z",
+		"ending_period": "2022-05-10T18:20:00.000Z"
+	},
+	{
+		"id": "2771",
+		"group_name": "T",
+		"starting_period": "2022-05-09T09:00:00.000Z",
+		"ending_period": "2022-05-09T11:00:00.000Z"
+	},
+	{
+		"id": "2665",
+		"group_name": "T",
+		"starting_period": "2022-05-06T19:40:00.000Z",
+		"ending_period": "2022-05-06T21:00:00.000Z"
+	},
+	{
+		"id": "2657",
+		"group_name": "T",
+		"starting_period": "2022-05-06T15:00:00.000Z",
+		"ending_period": "2022-05-06T17:00:00.000Z"
+	},
+	{
+		"id": "2745",
+		"group_name": "T",
+		"starting_period": "2022-05-08T19:40:00.000Z",
+		"ending_period": "2022-05-08T21:00:00.000Z"
+	},
+	{
+		"id": "2737",
+		"group_name": "T",
+		"starting_period": "2022-05-08T15:00:00.000Z",
+		"ending_period": "2022-05-08T17:00:00.000Z"
+	},
+	{
+		"id": "2705",
+		"group_name": "T",
+		"starting_period": "2022-05-07T19:40:00.000Z",
+		"ending_period": "2022-05-07T21:00:00.000Z"
+	},
+	{
+		"id": "2697",
+		"group_name": "T",
+		"starting_period": "2022-05-07T15:00:00.000Z",
+		"ending_period": "2022-05-07T17:00:00.000Z"
+	},
+	{
+		"id": "2535",
+		"group_name": "T",
+		"starting_period": "2022-05-02T13:00:00.000Z",
+		"ending_period": "2022-05-02T15:00:00.000Z"
+	},
+	{
+		"id": "2543",
+		"group_name": "T",
+		"starting_period": "2022-05-02T18:20:00.000Z",
+		"ending_period": "2022-05-02T19:40:00.000Z"
+	},
+	{
+		"id": "2583",
+		"group_name": "T",
+		"starting_period": "2022-05-04T18:20:00.000Z",
+		"ending_period": "2022-05-04T19:40:00.000Z"
+	},
+	{
+		"id": "2575",
+		"group_name": "T",
+		"starting_period": "2022-05-04T13:00:00.000Z",
+		"ending_period": "2022-05-04T15:00:00.000Z"
+	},
+	{
+		"id": "2602",
+		"group_name": "T",
+		"starting_period": "2022-05-05T15:00:00.000Z",
+		"ending_period": "2022-05-05T17:00:00.000Z"
+	},
+	{
+		"id": "2625",
+		"group_name": "T",
+		"starting_period": "2022-05-05T19:40:00.000Z",
+		"ending_period": "2022-05-05T21:00:00.000Z"
+	},
+	{
+		"id": "2661",
+		"group_name": "U",
+		"starting_period": "2022-05-06T18:20:00.000Z",
+		"ending_period": "2022-05-06T19:40:00.000Z"
+	},
+	{
+		"id": "2654",
+		"group_name": "U",
+		"starting_period": "2022-05-06T13:00:00.000Z",
+		"ending_period": "2022-05-06T15:00:00.000Z"
+	},
+	{
+		"id": "2613",
+		"group_name": "U",
+		"starting_period": "2022-05-05T18:20:00.000Z",
+		"ending_period": "2022-05-05T19:40:00.000Z"
+	},
+	{
+		"id": "2578",
+		"group_name": "U",
+		"starting_period": "2022-05-04T17:00:00.000Z",
+		"ending_period": "2022-05-04T18:20:00.000Z"
+	},
+	{
+		"id": "2570",
+		"group_name": "U",
+		"starting_period": "2022-05-04T09:00:00.000Z",
+		"ending_period": "2022-05-04T11:00:00.000Z"
+	},
+	{
+		"id": "2599",
+		"group_name": "U",
+		"starting_period": "2022-05-05T13:00:00.000Z",
+		"ending_period": "2022-05-05T15:00:00.000Z"
+	},
+	{
+		"id": "2538",
+		"group_name": "U",
+		"starting_period": "2022-05-02T17:00:00.000Z",
+		"ending_period": "2022-05-02T18:20:00.000Z"
+	},
+	{
+		"id": "2530",
+		"group_name": "U",
+		"starting_period": "2022-05-02T09:00:00.000Z",
+		"ending_period": "2022-05-02T11:00:00.000Z"
+	},
+	{
+		"id": "2741",
+		"group_name": "U",
+		"starting_period": "2022-05-08T18:20:00.000Z",
+		"ending_period": "2022-05-08T19:40:00.000Z"
+	},
+	{
+		"id": "2734",
+		"group_name": "U",
+		"starting_period": "2022-05-08T13:00:00.000Z",
+		"ending_period": "2022-05-08T15:00:00.000Z"
+	},
+	{
+		"id": "2701",
+		"group_name": "U",
+		"starting_period": "2022-05-07T18:20:00.000Z",
+		"ending_period": "2022-05-07T19:40:00.000Z"
+	},
+	{
+		"id": "2694",
+		"group_name": "U",
+		"starting_period": "2022-05-07T13:00:00.000Z",
+		"ending_period": "2022-05-07T15:00:00.000Z"
+	},
+	{
+		"id": "2772",
+		"group_name": "U",
+		"starting_period": "2022-05-09T11:00:00.000Z",
+		"ending_period": "2022-05-09T13:00:00.000Z"
+	},
+	{
+		"id": "2804",
+		"group_name": "U",
+		"starting_period": "2022-05-10T17:00:00.000Z",
+		"ending_period": "2022-05-10T18:20:00.000Z"
+	},
+	{
+		"id": "2781",
+		"group_name": "U",
+		"starting_period": "2022-05-09T17:00:00.000Z",
+		"ending_period": "2022-05-09T18:20:00.000Z"
+	},
+	{
+		"id": "2796",
+		"group_name": "U",
+		"starting_period": "2022-05-10T11:00:00.000Z",
+		"ending_period": "2022-05-10T13:00:00.000Z"
+	},
+	{
+		"id": "2848",
+		"group_name": "U",
+		"starting_period": "2022-05-11T11:00:00.000Z",
+		"ending_period": "2022-05-11T13:00:00.000Z"
+	},
+	{
+		"id": "2856",
+		"group_name": "U",
+		"starting_period": "2022-05-11T17:00:00.000Z",
+		"ending_period": "2022-05-11T18:20:00.000Z"
+	},
+	{
+		"id": "2904",
+		"group_name": "U",
+		"starting_period": "2022-05-12T08:00:00.000Z",
+		"ending_period": "2022-05-12T11:20:00.000Z"
+	},
+	{
+		"id": "2923",
+		"group_name": "U",
+		"starting_period": "2022-05-12T18:00:00.000Z",
+		"ending_period": "2022-05-12T19:40:00.000Z"
+	},
+	{
+		"id": "2958",
+		"group_name": "U",
+		"starting_period": "2022-05-13T18:00:00.000Z",
+		"ending_period": "2022-05-13T19:40:00.000Z"
+	},
+	{
+		"id": "2942",
+		"group_name": "U",
+		"starting_period": "2022-05-13T08:00:00.000Z",
+		"ending_period": "2022-05-13T11:20:00.000Z"
+	},
+	{
+		"id": "3012",
+		"group_name": "U",
+		"starting_period": "2022-05-14T18:00:00.000Z",
+		"ending_period": "2022-05-14T19:40:00.000Z"
+	},
+	{
+		"id": "2991",
+		"group_name": "U",
+		"starting_period": "2022-05-14T08:00:00.000Z",
+		"ending_period": "2022-05-14T11:20:00.000Z"
+	},
+	{
+		"id": "2993",
+		"group_name": "V",
+		"starting_period": "2022-05-14T08:00:00.000Z",
+		"ending_period": "2022-05-14T11:20:00.000Z"
+	},
+	{
+		"id": "3013",
+		"group_name": "V",
+		"starting_period": "2022-05-14T18:00:00.000Z",
+		"ending_period": "2022-05-14T19:40:00.000Z"
+	},
+	{
+		"id": "2943",
+		"group_name": "V",
+		"starting_period": "2022-05-13T08:00:00.000Z",
+		"ending_period": "2022-05-13T11:20:00.000Z"
+	},
+	{
+		"id": "2959",
+		"group_name": "V",
+		"starting_period": "2022-05-13T18:00:00.000Z",
+		"ending_period": "2022-05-13T19:40:00.000Z"
+	},
+	{
+		"id": "2925",
+		"group_name": "V",
+		"starting_period": "2022-05-12T18:00:00.000Z",
+		"ending_period": "2022-05-12T19:40:00.000Z"
+	},
+	{
+		"id": "2906",
+		"group_name": "V",
+		"starting_period": "2022-05-12T08:00:00.000Z",
+		"ending_period": "2022-05-12T11:20:00.000Z"
+	},
+	{
+		"id": "2852",
+		"group_name": "V",
+		"starting_period": "2022-05-11T15:00:00.000Z",
+		"ending_period": "2022-05-11T17:00:00.000Z"
+	},
+	{
+		"id": "2860",
+		"group_name": "V",
+		"starting_period": "2022-05-11T19:40:00.000Z",
+		"ending_period": "2022-05-11T21:00:00.000Z"
+	},
+	{
+		"id": "2800",
+		"group_name": "V",
+		"starting_period": "2022-05-10T15:00:00.000Z",
+		"ending_period": "2022-05-10T17:00:00.000Z"
+	},
+	{
+		"id": "2777",
+		"group_name": "V",
+		"starting_period": "2022-05-09T15:00:00.000Z",
+		"ending_period": "2022-05-09T17:00:00.000Z"
+	},
+	{
+		"id": "2787",
+		"group_name": "V",
+		"starting_period": "2022-05-09T19:40:00.000Z",
+		"ending_period": "2022-05-09T21:00:00.000Z"
+	},
+	{
+		"id": "2809",
+		"group_name": "V",
+		"starting_period": "2022-05-10T19:40:00.000Z",
+		"ending_period": "2022-05-10T21:00:00.000Z"
+	},
+	{
+		"id": "2693",
+		"group_name": "V",
+		"starting_period": "2022-05-07T11:00:00.000Z",
+		"ending_period": "2022-05-07T13:00:00.000Z"
+	},
+	{
+		"id": "2702",
+		"group_name": "V",
+		"starting_period": "2022-05-07T18:20:00.000Z",
+		"ending_period": "2022-05-07T19:40:00.000Z"
+	},
+	{
+		"id": "2733",
+		"group_name": "V",
+		"starting_period": "2022-05-08T11:00:00.000Z",
+		"ending_period": "2022-05-08T13:00:00.000Z"
+	},
+	{
+		"id": "2742",
+		"group_name": "V",
+		"starting_period": "2022-05-08T18:20:00.000Z",
+		"ending_period": "2022-05-08T19:40:00.000Z"
+	},
+	{
+		"id": "2531",
+		"group_name": "V",
+		"starting_period": "2022-05-02T09:00:00.000Z",
+		"ending_period": "2022-05-02T11:00:00.000Z"
+	},
+	{
+		"id": "2539",
+		"group_name": "V",
+		"starting_period": "2022-05-02T17:00:00.000Z",
+		"ending_period": "2022-05-02T18:20:00.000Z"
+	},
+	{
+		"id": "2571",
+		"group_name": "V",
+		"starting_period": "2022-05-04T09:00:00.000Z",
+		"ending_period": "2022-05-04T11:00:00.000Z"
+	},
+	{
+		"id": "2579",
+		"group_name": "V",
+		"starting_period": "2022-05-04T17:00:00.000Z",
+		"ending_period": "2022-05-04T18:20:00.000Z"
+	},
+	{
+		"id": "2614",
+		"group_name": "V",
+		"starting_period": "2022-05-05T18:20:00.000Z",
+		"ending_period": "2022-05-05T19:40:00.000Z"
+	},
+	{
+		"id": "2592",
+		"group_name": "V",
+		"starting_period": "2022-05-05T11:00:00.000Z",
+		"ending_period": "2022-05-05T13:00:00.000Z"
+	},
+	{
+		"id": "2653",
+		"group_name": "V",
+		"starting_period": "2022-05-06T11:00:00.000Z",
+		"ending_period": "2022-05-06T13:00:00.000Z"
+	},
+	{
+		"id": "2662",
+		"group_name": "V",
+		"starting_period": "2022-05-06T18:20:00.000Z",
+		"ending_period": "2022-05-06T19:40:00.000Z"
+	},
+	{
+		"id": "2663",
+		"group_name": "W",
+		"starting_period": "2022-05-06T18:20:00.000Z",
+		"ending_period": "2022-05-06T19:40:00.000Z"
+	},
+	{
+		"id": "2655",
+		"group_name": "W",
+		"starting_period": "2022-05-06T13:00:00.000Z",
+		"ending_period": "2022-05-06T15:00:00.000Z"
+	},
+	{
+		"id": "2615",
+		"group_name": "W",
+		"starting_period": "2022-05-05T18:20:00.000Z",
+		"ending_period": "2022-05-05T19:40:00.000Z"
+	},
+	{
+		"id": "2580",
+		"group_name": "W",
+		"starting_period": "2022-05-04T17:00:00.000Z",
+		"ending_period": "2022-05-04T18:20:00.000Z"
+	},
+	{
+		"id": "2572",
+		"group_name": "W",
+		"starting_period": "2022-05-04T11:00:00.000Z",
+		"ending_period": "2022-05-04T13:00:00.000Z"
+	},
+	{
+		"id": "2600",
+		"group_name": "W",
+		"starting_period": "2022-05-05T13:00:00.000Z",
+		"ending_period": "2022-05-05T15:00:00.000Z"
+	},
+	{
+		"id": "2540",
+		"group_name": "W",
+		"starting_period": "2022-05-02T17:00:00.000Z",
+		"ending_period": "2022-05-02T18:20:00.000Z"
+	},
+	{
+		"id": "2532",
+		"group_name": "W",
+		"starting_period": "2022-05-02T11:00:00.000Z",
+		"ending_period": "2022-05-02T13:00:00.000Z"
+	},
+	{
+		"id": "2743",
+		"group_name": "W",
+		"starting_period": "2022-05-08T18:20:00.000Z",
+		"ending_period": "2022-05-08T19:40:00.000Z"
+	},
+	{
+		"id": "2735",
+		"group_name": "W",
+		"starting_period": "2022-05-08T13:00:00.000Z",
+		"ending_period": "2022-05-08T15:00:00.000Z"
+	},
+	{
+		"id": "2703",
+		"group_name": "W",
+		"starting_period": "2022-05-07T18:20:00.000Z",
+		"ending_period": "2022-05-07T19:40:00.000Z"
+	},
+	{
+		"id": "2695",
+		"group_name": "W",
+		"starting_period": "2022-05-07T13:00:00.000Z",
+		"ending_period": "2022-05-07T15:00:00.000Z"
+	},
+	{
+		"id": "2811",
+		"group_name": "W",
+		"starting_period": "2022-05-10T19:40:00.000Z",
+		"ending_period": "2022-05-10T21:00:00.000Z"
+	},
+	{
+		"id": "2778",
+		"group_name": "W",
+		"starting_period": "2022-05-09T15:00:00.000Z",
+		"ending_period": "2022-05-09T17:00:00.000Z"
+	},
+	{
+		"id": "2786",
+		"group_name": "W",
+		"starting_period": "2022-05-09T19:40:00.000Z",
+		"ending_period": "2022-05-09T21:00:00.000Z"
+	},
+	{
+		"id": "2801",
+		"group_name": "W",
+		"starting_period": "2022-05-10T15:00:00.000Z",
+		"ending_period": "2022-05-10T17:00:00.000Z"
+	},
+	{
+		"id": "2861",
+		"group_name": "W",
+		"starting_period": "2022-05-11T19:40:00.000Z",
+		"ending_period": "2022-05-11T21:00:00.000Z"
+	},
+	{
+		"id": "2853",
+		"group_name": "W",
+		"starting_period": "2022-05-11T15:00:00.000Z",
+		"ending_period": "2022-05-11T17:00:00.000Z"
+	},
+	{
+		"id": "2908",
+		"group_name": "W",
+		"starting_period": "2022-05-12T08:00:00.000Z",
+		"ending_period": "2022-05-12T11:20:00.000Z"
+	},
+	{
+		"id": "2926",
+		"group_name": "W",
+		"starting_period": "2022-05-12T18:00:00.000Z",
+		"ending_period": "2022-05-12T19:40:00.000Z"
+	},
+	{
+		"id": "2960",
+		"group_name": "W",
+		"starting_period": "2022-05-13T18:00:00.000Z",
+		"ending_period": "2022-05-13T19:40:00.000Z"
+	},
+	{
+		"id": "2944",
+		"group_name": "W",
+		"starting_period": "2022-05-13T08:00:00.000Z",
+		"ending_period": "2022-05-13T11:20:00.000Z"
+	},
+	{
+		"id": "3014",
+		"group_name": "W",
+		"starting_period": "2022-05-14T18:00:00.000Z",
+		"ending_period": "2022-05-14T19:40:00.000Z"
+	},
+	{
+		"id": "2994",
+		"group_name": "W",
+		"starting_period": "2022-05-14T08:00:00.000Z",
+		"ending_period": "2022-05-14T11:20:00.000Z"
+	},
+	{
+		"id": "2983",
+		"group_name": "X",
+		"starting_period": "2022-05-14T05:00:00.000Z",
+		"ending_period": "2022-05-14T08:00:00.000Z"
+	},
+	{
+		"id": "2935",
+		"group_name": "X",
+		"starting_period": "2022-05-13T05:00:00.000Z",
+		"ending_period": "2022-05-13T08:00:00.000Z"
+	},
+	{
+		"id": "2901",
+		"group_name": "X",
+		"starting_period": "2022-05-12T05:00:00.000Z",
+		"ending_period": "2022-05-12T08:00:00.000Z"
+	},
+	{
+		"id": "2791",
+		"group_name": "X",
+		"starting_period": "2022-05-09T05:00:00.000Z",
+		"ending_period": "2022-05-09T08:00:00.000Z"
+	},
+	{
+		"id": "2819",
+		"group_name": "X",
+		"starting_period": "2022-05-10T05:00:00.000Z",
+		"ending_period": "2022-05-10T08:00:00.000Z"
+	},
+	{
+		"id": "2843",
+		"group_name": "X",
+		"starting_period": "2022-05-11T05:00:00.000Z",
+		"ending_period": "2022-05-11T08:00:00.000Z"
+	},
+	{
+		"id": "2844",
+		"group_name": "Y",
+		"starting_period": "2022-05-11T05:00:00.000Z",
+		"ending_period": "2022-05-11T08:00:00.000Z"
+	},
+	{
+		"id": "2821",
+		"group_name": "Y",
+		"starting_period": "2022-05-10T05:00:00.000Z",
+		"ending_period": "2022-05-10T08:00:00.000Z"
+	},
+	{
+		"id": "2792",
+		"group_name": "Y",
+		"starting_period": "2022-05-09T05:00:00.000Z",
+		"ending_period": "2022-05-09T08:00:00.000Z"
+	},
+	{
+		"id": "2902",
+		"group_name": "Y",
+		"starting_period": "2022-05-12T05:00:00.000Z",
+		"ending_period": "2022-05-12T08:00:00.000Z"
+	},
+	{
+		"id": "2936",
+		"group_name": "Y",
+		"starting_period": "2022-05-13T05:00:00.000Z",
+		"ending_period": "2022-05-13T08:00:00.000Z"
+	},
+	{
+		"id": "2984",
+		"group_name": "Y",
+		"starting_period": "2022-05-14T05:00:00.000Z",
+		"ending_period": "2022-05-14T08:00:00.000Z"
+	},
+	{
+		"id": "2985",
+		"group_name": "Z",
+		"starting_period": "2022-05-14T05:00:00.000Z",
+		"ending_period": "2022-05-14T08:00:00.000Z"
+	},
+	{
+		"id": "2937",
+		"group_name": "Z",
+		"starting_period": "2022-05-13T05:00:00.000Z",
+		"ending_period": "2022-05-13T08:00:00.000Z"
+	},
+	{
+		"id": "2903",
+		"group_name": "Z",
+		"starting_period": "2022-05-12T05:00:00.000Z",
+		"ending_period": "2022-05-12T08:00:00.000Z"
+	},
+	{
+		"id": "2793",
+		"group_name": "Z",
+		"starting_period": "2022-05-09T05:00:00.000Z",
+		"ending_period": "2022-05-09T08:00:00.000Z"
+	},
+	{
+		"id": "2823",
+		"group_name": "Z",
+		"starting_period": "2022-05-10T05:00:00.000Z",
+		"ending_period": "2022-05-10T08:00:00.000Z"
+	},
+	{
+		"id": "2845",
+		"group_name": "Z",
+		"starting_period": "2022-05-11T05:00:00.000Z",
+		"ending_period": "2022-05-11T08:00:00.000Z"
+	}
+]
