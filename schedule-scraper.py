@@ -68,5 +68,4 @@ with open(os.path.join('output', 'schedule', 'output.json'), 'w') as outfile:
     json.dump(final_data, outfile)
 
 print("Data saved in output.json")
-
 driver.close()

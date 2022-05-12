@@ -1,0 +1,42 @@
+[
+	{
+		"GssName": "Ambalangoda",
+		"FeederName": "Feeder 04",
+		"FeedingArea": ["yatagala Industrial zone", "Uragasmanhandiya", "Ahungalla"]
+	},
+	{ "GssName": "Bolawatta", "FeederName": "Feeder 01", "FeedingArea": "N/A" },
+	{ "GssName": "Hambanthota", "FeederName": "Feeder 02", "FeedingArea": "N/A" },
+	{ "GssName": "Horana", "FeederName": "Feeder 06", "FeedingArea": "N/A" },
+	{ "GssName": "Katunayaka", "FeederName": "Feeder 02", "FeedingArea": "N/A" },
+	{
+		"GssName": "Kerawalapitiya",
+		"FeederName": "Feeder 10",
+		"FeedingArea": "N/A"
+	},
+	{
+		"GssName": "Kotugoda",
+		"FeederName": "Feeder 05",
+		"FeedingArea": ["Bulk Supply"]
+	},
+	{
+		"GssName": "Pallekelle",
+		"FeederName": "Feeder 03",
+		"FeedingArea": ["BOI"]
+	},
+	{
+		"GssName": "Thulhiriya",
+		"FeederName": "Feeder 01",
+		"FeedingArea": ["Polgahawela Industrial Zone"]
+	},
+	{
+		"GssName": "Valachchenai",
+		"FeederName": "Feeder 08",
+		"FeedingArea": ["Paper Factory"]
+	},
+	{
+		"GssName": "Rikillagaskada",
+		"FeederName": "Feeder 03",
+		"FeedingArea": "N/A"
+	},
+	{ "GssName": "Pannala", "FeederName": "Feeder 08", "FeedingArea": "N/A" }
+]
