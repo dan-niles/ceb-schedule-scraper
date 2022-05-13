@@ -25,14 +25,46 @@ def process_browser_log_entry(entry):
 def remap_data(item):
     obj = {
         "gss_name": item['GssName'],
-        "feeder_name": item['FeederName'],
+        "feeder_name": item['FeederName'].replace('Feeder ', '').lstrip("0"),
     }
     if "FeedingArea" in item:
         obj['feeding_area'] = item['FeedingArea'].split(", ")
+        obj['feeding_area'] = [feeder.capitalize() for feeder in obj['feeding_area']]
     else:
         obj['feeding_area'] = "N/A"
 
     return obj
+
+def format_data(data):
+    final_dict = {};
+    for item in data:
+        group_name = item["group_name"]
+
+        for gss in item["data"]:
+            gss_name = gss["gss_name"]
+            feeder_name = gss["feeder_name"]
+            feeding_area = gss["feeding_area"]
+
+            if feeding_area == "N/A":
+                continue
+
+            if gss_name not in final_dict:
+                final_dict[gss_name] = dict()
+
+            for area in feeding_area:
+                if area == "":
+                    continue
+                if area not in final_dict[gss_name]:
+                    final_dict[gss_name][area] = dict()
+                if "groups" not in final_dict[gss_name][area]:
+                    final_dict[gss_name][area]["groups"] = list()
+                if "feeders" not in final_dict[gss_name][area]:
+                    final_dict[gss_name][area]["feeders"] = list()
+
+                final_dict[gss_name][area]["groups"].append(group_name)
+                final_dict[gss_name][area]["feeders"].append(feeder_name)
+    return final_dict
+
 
 group_names = []
 for group in driver.find_elements(
@@ -82,8 +114,10 @@ for idx, time_slot in enumerate(time_slot_list):
     scrapped_groups.append(group)
 
 
+output = format_data(final_data)
+
 with open(os.path.join('output', 'group', 'output.json'), 'w') as outfile:
-    json.dump(final_data, outfile)
+    json.dump(output, outfile, sort_keys=True)
 
 print("Execution Complete")
 driver.close()
