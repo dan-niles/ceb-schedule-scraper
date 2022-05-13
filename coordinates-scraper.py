@@ -22,17 +22,10 @@ def process_browser_log_entry(entry):
     response = json.loads(entry['message'])['message']
     return response
 
-def remap_points(item):
+def remap_data(item):
     obj = {
         "lat": item['Lat'],
         "lon": item['Lon'],
-    }
-    return obj
-
-def remap_data(item):
-    obj = {
-        "no_of_customers": item['NumberOfCustomers'],
-        "points": list(map(remap_points, item['Points']))
     }
     return obj
 
@@ -80,8 +73,12 @@ for idx, time_slot in enumerate(time_slot_list):
     json_data = data["body"].replace('\\', '').strip('\"')
     data_obj = json.loads(json_data)
 
-    remapped_data = list(map(remap_data, data_obj))
-    final_data.append({"group_name": group, "zones": remapped_data})
+    remapped_data = []
+    for obj in data_obj:
+        zone_data = list(map(remap_data, obj["Points"]))
+        remapped_data.append(zone_data)
+
+    final_data.append({"group_name": group, "no_of_customers": data_obj[0]["NumberOfCustomers"], "zones": remapped_data})
     scrapped_groups.append(group)
 
 
