@@ -23,10 +23,7 @@ def process_browser_log_entry(entry):
     return response
 
 def remap_data(item):
-    obj = {
-        "lat": item['Lat'],
-        "lon": item['Lon'],
-    }
+    obj = [item['Lat'], item['Lon']]
     return obj
 
 group_names = []
