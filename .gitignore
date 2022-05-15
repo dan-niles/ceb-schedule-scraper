@@ -1,2 +1,4 @@
 bin/
 chromedriver.exe
+__pycache__/
+output/

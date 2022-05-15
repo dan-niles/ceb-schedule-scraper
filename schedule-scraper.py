@@ -1,22 +1,18 @@
 import json
 import time
 import os
-
-from selenium import webdriver
-from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
+from DriverManager import DriverManager
 from selenium.webdriver.common.by import By
+
 
 site_url = "https://cebcare.ceb.lk/Incognito/DemandMgmtSchedule"
 data_url = "https://cebcare.ceb.lk/Incognito/GetLoadSheddingEvents"
 
-caps = DesiredCapabilities.CHROME
-caps['goog:loggingPrefs'] = {'performance': 'ALL'}
+driverManager = DriverManager()
+driver = driverManager.get_driver()
 
-option = webdriver.ChromeOptions()
-option.add_argument('headless')
-
-driver = webdriver.Chrome(desired_capabilities=caps, options=option)
 driver.get(site_url)
+driverManager.print_request()
 
 time.sleep(4)
 driver.find_element(by=By.CSS_SELECTOR,

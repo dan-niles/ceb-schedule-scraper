@@ -1,21 +1,16 @@
 import json
 import time
 import os
-
-from selenium import webdriver
-from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
+from DriverManager import DriverManager
 from selenium.webdriver.common.by import By
 
 site_url = "https://cebcare.ceb.lk/Incognito/DemandMgmtSchedule"
 
-caps = DesiredCapabilities.CHROME
-caps['goog:loggingPrefs'] = {'performance': 'ALL'}
+driverManager = DriverManager()
+driver = driverManager.get_driver()
 
-option = webdriver.ChromeOptions()
-option.add_argument('headless')
-
-driver = webdriver.Chrome(options=option)
 driver.get(site_url)
+driverManager.print_request()
 time.sleep(2)
 
 def process_browser_log_entry(entry):
