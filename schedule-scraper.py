@@ -20,8 +20,8 @@ class FilterMode(enum.Enum):
     group = 4
 
 # Define the mode to use when running and the filter value
-currentTimeMode = TimeMode.month
-currentFilterMode = FilterMode.fixedDay
+currentTimeMode = TimeMode.all
+currentFilterMode = FilterMode.none
 lastIdFilterValue = "5688"
 dayFilterValue = "2022-08-01"
 groupFilterValue = "S"
@@ -40,6 +40,7 @@ driver = driverManager.get_driver()
 
 # Use driver to request url
 try:
+    print("Loading today data")
     driver.get(site_url)
     #driverManager.print_request()
     time.sleep(4)
@@ -55,52 +56,72 @@ except Exception as e:
     print("Error running the scrapper: see the logs")
     exit()
 
-
-if (currentTimeMode.value == TimeMode.today.value):
-    # Click 'Month' button to request more data
-    driver.find_element(by=By.CSS_SELECTOR,
-                        value="button.fc-dayGridMonth-button").click()
+def clickOnMonthButton(driver):
+    driver.find_element(by=By.CSS_SELECTOR, value="button.fc-dayGridMonth-button").click()
     time.sleep(4)
 
+def clickOnPreviousButton(driver):
+    driver.find_element(by=By.CSS_SELECTOR, value="button.fc-prev-button").click()
+    time.sleep(4)
+
+if (currentTimeMode.value != TimeMode.today.value):
+    print("Loading current month data")
+    clickOnMonthButton(driver)
+    if (currentTimeMode.value == TimeMode.all.value):
+        amountOfPastMonths = 5
+        for x in range(amountOfPastMonths):
+            print(f"Loading {x+1} months ago data")
+            clickOnPreviousButton(driver)
 
 def process_browser_log_entry(entry):
     response = json.loads(entry['message'])['message']
     return response
 
-
+# Get browser events and select the one requesting schedules
 browser_log = driver.get_log('performance')
-
 browserEvents = [process_browser_log_entry(entry) for entry in browser_log]
 browserEvents = [event for event in browserEvents if 'Network.response' in event['method']]
-
-item_index = None
+browserEventIndexes = []
 for (index, event) in enumerate(browserEvents):
     try:
         if(event["params"]["response"]["url"] == data_url):
-            print(f'GetLoadSheddingEvents founded')
-            item_index = index
+            #print(f'Founded GetLoadSheddingEvents #{len(browserEventIndexes)+1}')
+
+            # TODO: implement retries
+            if (browserEvents[index]["params"]["response"]["status"] != 200):
+                if (browserEvents[index]["params"]["response"]["status"] != 429):
+                    # On busy time we receive a status of 429: Too many requests received.
+                    print("ERROR: CEB is busy, try again later")
+                else:
+                    print("ERROR: wrong response from CEB, try again later")
+                driver.close()
+                exit()
+            browserEventIndexes.append(index)
     except:
         pass
+print(f"Founded {len(browserEventIndexes)} browserEvents contaning schedules")
 
-# On busy time we receive a status of 429: Too many requests received.
-# TODO: implement retries
-if (browserEvents[item_index]["params"]["response"]["status"] != 200):
-    if (browserEvents[item_index]["params"]["response"]["status"] != 429):
-        print("WARNING: CEB is busy, try again later")
-    else:
-        print("ERROR: wrong response from CEB, try again later")
+if (len(browserEventIndexes) == 0):
+    print("ERROR: No data found in network responses")
     driver.close()
     exit()
 
-if (item_index == None):
-    print("WARNING: No data found")
-    driver.close()
-    exit()
+# Retrieve data from selected browser events
+data = []
+for browserEventIndex in browserEventIndexes:
+    networkResponse = driver.execute_cdp_cmd('Network.getResponseBody', {'requestId': browserEvents[browserEventIndex]["params"]["requestId"]})
+    dataInResponse = json.loads(networkResponse["body"])
+    print(f"Parsed response with {len(dataInResponse)} schedules")
+    data = data + dataInResponse
+print(f"Schedules received: {len(data)}")
 
-data = driver.execute_cdp_cmd('Network.getResponseBody', {
-                              'requestId': browserEvents[item_index]["params"]["requestId"]})
-data = json.loads(data["body"])
-
+# Remove duplicates
+visited = set()
+data = [e for e in data
+        if e['id'] not in visited
+        and not visited.add(e['id'])]
+del visited
+print(f"Schedules without duplicates: {len(data)}")
 
 def remap_data(item):
     obj = {
@@ -131,22 +152,23 @@ def less(string1, string2):
     # of the strings.
     return len(string1) < len(string2)
 
-if (currentTimeMode.value == FilterMode.fixedDay.value):
+# Apply filters
+if (currentFilterMode.value == FilterMode.fixedDay.value):
     # Useful to manually identify the last inserted id.
     # Set dayFilterValue to the last date of our data and pick the id from the last element in output.json file. Then use FilterMode.lastId
     print(f"Filtering by fixedDay: {dayFilterValue}")
     filteredData = filter(lambda item: dayFilterValue in item['startTime'], data)
 
-elif (currentTimeMode.value == FilterMode.fromDay.value):
+elif (currentFilterMode.value == FilterMode.fromDay.value):
     print(f"Filtering by fromDay: {dayFilterValue}")
     filteredData = filter(lambda item: less(dayFilterValue, item['startTime']), data)
 
-elif (currentTimeMode.value == FilterMode.lastId.value):
+elif (currentFilterMode.value == FilterMode.lastId.value):
     # Filtering data with id greather than lastIdFilterValue
     print(f"Filtering by lastId: {lastIdFilterValue}")
     filteredData = filter(lambda item: item['id'] > lastIdFilterValue, data)
 
-elif (currentTimeMode.value == FilterMode.group.value):
+elif (currentFilterMode.value == FilterMode.group.value):
     print(f"Filtering by group: {groupFilterValue}")
     filteredData = filter(lambda item: (item['loadShedGroupId'] == groupFilterValue), data)
 
