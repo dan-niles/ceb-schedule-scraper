@@ -14,7 +14,7 @@ def export_to_CSV(json_schedules):
     print("Reformating schedules...")
     data = []
     for schedule in json_schedules:
-        row = {"group_name": schedule["group_name"], "starting_period": schedule["starting_period"], "ending_period": schedule["ending_period"]}
+        row = {"group": schedule["group"], "starting_period": schedule["starting_period"], "ending_period": schedule["ending_period"]}
         data.append(row)
     df = pd.DataFrame(data)
     print("Saving schedules...")
