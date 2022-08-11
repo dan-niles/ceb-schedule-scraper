@@ -1,4 +1,5 @@
 from collections import Counter
+import enum
 import json
 import time
 import os
@@ -6,7 +7,30 @@ from DriverManager import DriverManager
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import WebDriverException
 
+class TimeMode(enum.Enum):
+    today = 1
+    month = 2
+    all = 3
 
+class FilterMode(enum.Enum):
+    none = 0
+    lastId = 1
+    fixedDay = 2
+    fromDay = 3
+    group = 4
+
+# Define the mode to use when running and the filter value
+currentTimeMode = TimeMode.month
+currentFilterMode = FilterMode.fixedDay
+lastIdFilterValue = "5688"
+dayFilterValue = "2022-08-01"
+groupFilterValue = "S"
+
+print(f"Time mode is {currentTimeMode.name}.")
+print(f"Filter mode is {currentFilterMode.name}.")
+print()
+
+# External urls to use
 site_url = "https://cebcare.ceb.lk/Incognito/DemandMgmtSchedule"
 data_url = "https://cebcare.ceb.lk/Incognito/GetLoadSheddingEvents"
 
@@ -18,6 +42,7 @@ driver = driverManager.get_driver()
 try:
     driver.get(site_url)
     #driverManager.print_request()
+    time.sleep(4)
 except WebDriverException as e:
     if ("ERR_TUNNEL_CONNECTION_FAILED" in e.msg):
         print("Error running the scrapper: the proxy is down")
@@ -30,11 +55,12 @@ except Exception as e:
     print("Error running the scrapper: see the logs")
     exit()
 
-# Click 'Month' button to request more data
-time.sleep(4)
-driver.find_element(by=By.CSS_SELECTOR,
-                    value="button.fc-dayGridMonth-button").click()
-time.sleep(4)
+
+if (currentTimeMode.value == TimeMode.today.value):
+    # Click 'Month' button to request more data
+    driver.find_element(by=By.CSS_SELECTOR,
+                        value="button.fc-dayGridMonth-button").click()
+    time.sleep(4)
 
 
 def process_browser_log_entry(entry):
@@ -44,21 +70,22 @@ def process_browser_log_entry(entry):
 
 browser_log = driver.get_log('performance')
 
-events = [process_browser_log_entry(entry) for entry in browser_log]
-events = [event for event in events if 'Network.response' in event['method']]
+browserEvents = [process_browser_log_entry(entry) for entry in browser_log]
+browserEvents = [event for event in browserEvents if 'Network.response' in event['method']]
 
 item_index = None
-for (index, event) in enumerate(events):
+for (index, event) in enumerate(browserEvents):
     try:
         if(event["params"]["response"]["url"] == data_url):
+            print(f'GetLoadSheddingEvents founded')
             item_index = index
     except:
         pass
 
 # On busy time we receive a status of 429: Too many requests received.
 # TODO: implement retries
-if (events[item_index]["params"]["response"]["status"] != 200):
-    if (events[item_index]["params"]["response"]["status"] != 429):
+if (browserEvents[item_index]["params"]["response"]["status"] != 200):
+    if (browserEvents[item_index]["params"]["response"]["status"] != 429):
         print("WARNING: CEB is busy, try again later")
     else:
         print("ERROR: wrong response from CEB, try again later")
@@ -71,7 +98,7 @@ if (item_index == None):
     exit()
 
 data = driver.execute_cdp_cmd('Network.getResponseBody', {
-                              'requestId': events[item_index]["params"]["requestId"]})
+                              'requestId': browserEvents[item_index]["params"]["requestId"]})
 data = json.loads(data["body"])
 
 
@@ -104,31 +131,41 @@ def less(string1, string2):
     # of the strings.
     return len(string1) < len(string2)
 
-# Manually identifying the last inserted id. 
-# Uncomment this and comment the filter by lastScrapedId.
-# Set lastScrapedDate to the last date of our data and pick the id from the last element in output.json file
-#lastScrapedDate = "2022-08-01"
-#data = filter(lambda item: (less(lastScrapedDate, item['startTime']) and item['loadShedGroupId'] == "S"), data)
-#data = filter(lambda item: lastScrapedDate in item['startTime'], data)
-#data = sorted(data, key = lambda item: (item['id']))
+if (currentTimeMode.value == FilterMode.fixedDay.value):
+    # Useful to manually identify the last inserted id.
+    # Set dayFilterValue to the last date of our data and pick the id from the last element in output.json file. Then use FilterMode.lastId
+    print(f"Filtering by fixedDay: {dayFilterValue}")
+    filteredData = filter(lambda item: dayFilterValue in item['startTime'], data)
 
-# Filtering data greather than last inserted id (lastScrapedId should be received by parameter)
-lastScrapedId = "5688"
-data = filter(lambda item: item['id'] > lastScrapedId, data)
-data = sorted(data, key = lambda item: (item['id']))
-#data = sorted(data, key = lambda item: (item['loadShedGroupId'], item['startTime']))
+elif (currentTimeMode.value == FilterMode.fromDay.value):
+    print(f"Filtering by fromDay: {dayFilterValue}")
+    filteredData = filter(lambda item: less(dayFilterValue, item['startTime']), data)
 
+elif (currentTimeMode.value == FilterMode.lastId.value):
+    # Filtering data with id greather than lastIdFilterValue
+    print(f"Filtering by lastId: {lastIdFilterValue}")
+    filteredData = filter(lambda item: item['id'] > lastIdFilterValue, data)
+
+elif (currentTimeMode.value == FilterMode.group.value):
+    print(f"Filtering by group: {groupFilterValue}")
+    filteredData = filter(lambda item: (item['loadShedGroupId'] == groupFilterValue), data)
+
+else:
+    filteredData = data
+    
+# Sort data
+filteredData = sorted(filteredData, key = lambda item: (item['id']))
+#filteredData = sorted(filteredData, key = lambda item: (item['loadShedGroupId'], item['startTime']))
 
 # Count schedules by group (not needed, just for logs and visual verification)
-counted = Counter((item['loadShedGroupId']) for item in data)
+counted = Counter((item['loadShedGroupId']) for item in filteredData)
 output = [({'Group' : doctor}, k) for (doctor), k in counted.items()]
 print(output)
 
-
-final_data = list(map(remap_data, data))
 print(f"Received schedules: {len(data)}")
-print(f"Extracted schedules: {len(final_data)}")
+print(f"Extracted schedules: {len(filteredData)}")
 
+final_data = list(map(remap_data, filteredData))
 
 with open(os.path.join('output', 'schedule', 'output.json'), 'w') as outfile:
     json.dump(final_data, outfile, indent=4)
