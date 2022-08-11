@@ -55,9 +55,18 @@ for (index, event) in enumerate(events):
     except:
         pass
 
-# On busy time we receive a status of 429: Too many requests recived. 
-if (item_index == None or events[item_index]["params"]["response"]["status"] != 200):
-    print("Data Not Found")
+# On busy time we receive a status of 429: Too many requests received.
+# TODO: implement retries
+if (events[item_index]["params"]["response"]["status"] != 200):
+    if (events[item_index]["params"]["response"]["status"] != 429):
+        print("WARNING: CEB is busy, try again later")
+    else:
+        print("ERROR: wrong response from CEB, try again later")
+    driver.close()
+    exit()
+
+if (item_index == None):
+    print("WARNING: No data found")
     driver.close()
     exit()
 
