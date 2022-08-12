@@ -3,6 +3,7 @@ import enum
 import json
 import time
 import os
+import pandas as pd
 from DriverManager import DriverManager
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import WebDriverException
@@ -22,8 +23,12 @@ class FilterMode(enum.Enum):
     fromDay = 3
     group = 4
 
+class FormatMode(enum.Enum):
+    ekata = 1
+    extended = 2
+
 # Main funtion to be called when importing this script 
-def scrapeSchedules(timeMode, filterMode, filterValue):
+def scrapeSchedules(timeMode, filterMode, filterValue, formatMode):
     print(f"Time mode is {timeMode.name}.")
     print(f"Filter mode is {filterMode.name}.")
     print()
@@ -57,7 +62,7 @@ def scrapeSchedules(timeMode, filterMode, filterValue):
     print(f"Schedules filtered: {len(filteredData)}")
     
     printGroupedGroups(data)
-    formatted_data = list(map(remapForEkata, filteredData))
+    formatted_data = applyFormat(filteredData, formatMode)
     print(f"--> Extracted schedules: {len(filteredData)}")
     return formatted_data
 
@@ -157,23 +162,39 @@ def applySorting(data):
     return sorted(data, key = lambda item: (int(item['id'])))
     #return sorted(data, key = lambda item: (item['loadShedGroupId'], item['startTime']))
 
+def applyFormat(data, formatMode):
+    if (formatMode.value == FormatMode.ekata.value):
+        return list(map(remapForEkata, data))
+    elif (formatMode.value == FormatMode.extended.value):
+        return list(map(remapForExtended, data))
+
 def printGroupedGroups(data):
     # Count schedules by group (not needed, just for logs and visual verification)
     counted = Counter((item['loadShedGroupId']) for item in data)
     output = [({'Group' : doctor}, k) for (doctor), k in counted.items()]
     print(f'Grouped groups: {output}')
 
-def remapForEkata(item):
-    def format_date_time(date_time):
-        # Replace middle T by a space and remove last 3 character for seconds. 
-        # Sample: from "2022-05-20T05:00:00" to "2022-05-20 05:00"
-        return date_time.replace("T", " ")[:-3]
-        
+def format_date_time(date_time):
+    # Replace middle T by a space and remove last 3 character for seconds. 
+    # Sample: from "2022-05-20T05:00:00" to "2022-05-20 05:00"
+    return date_time.replace("T", " ")[:-3]
+
+def remapForEkata(item): 
     obj = {
-        "id": item['id'],
+        "group": item['loadShedGroupId'],
+        "starting_period": format_date_time(item['startTime']),
+        "ending_period": format_date_time(item['endTime'])
+    }
+    return obj
+
+def remapForExtended(item): 
+    obj = {
+        "ceb_id": item['id'],
         "group": item['loadShedGroupId'],
         "starting_period": format_date_time(item['startTime']),
         "ending_period": format_date_time(item['endTime']),
+        "noOfFeeders": item['noOfFeeders'],
+        "timeStamp": item['timeStamp']
     }
     return obj
 
@@ -193,13 +214,19 @@ def deepSmallerThan(string1, string2):
     return len(string1) < len(string2)
 
 def saveOutputAsJsonFile(data):
-    with open(os.path.join('output', 'schedule', 'output.json'), 'w') as outfile:
+    filePath = os.path.join('output', 'schedule', 'output.json')
+    with open(filePath, 'w') as outfile:
         json.dump(data, outfile, indent=4)
     print("Data saved in output.json")
 
 def saveOutputAsCsvFile(data):
-    #TODO:
-    print("Data NOT saved in output.csv")
+    formattedData = []
+    for item in data:
+        formattedData.append(item)
+    filePath = os.path.join('output', 'schedule', 'output.csv')
+    df = pd.DataFrame(formattedData)
+    df.to_csv (filePath, index = None)
+    print("Data saved in output.csv")
 
 
 # Main condition, will be called when running this script directly 
@@ -207,14 +234,18 @@ if __name__ == "__main__":
 
     # Edit following vars to define how this script will run
     lastIdFilterValue = "5688"
-    dayFilterValue = "2022-08-01"
+    dayFilterValue = "2022-02-21"
     groupFilterValue = "S"
-    currentFilterValue = lastIdFilterValue
+    currentFilterValue = dayFilterValue
     currentTimeMode = TimeMode.all
-    currentFilterMode = FilterMode.none
+    currentFilterMode = FilterMode.fromDay
+    currentFormatMode = FormatMode.extended
+    saveAsJson = True
+    saveAsCsv = True
     
     # Call the main function
-    schedules = scrapeSchedules(currentTimeMode, currentFilterMode, currentFilterValue)
-    saveOutputAsJsonFile(schedules)
-    saveOutputAsCsvFile(schedules)
+    schedules = scrapeSchedules(currentTimeMode, currentFilterMode, currentFilterValue, currentFormatMode)
+
+    if (saveAsJson): saveOutputAsJsonFile(schedules)
+    if (saveAsCsv): saveOutputAsCsvFile(schedules)
 
