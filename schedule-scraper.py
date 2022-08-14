@@ -1,4 +1,5 @@
-from collections import Counter
+from collections import Counter, OrderedDict, defaultdict
+from dateutil import parser
 import enum
 import json
 import time
@@ -59,10 +60,13 @@ def scrapeSchedules(timeMode, filterMode, filterValue, formatMode):
 
     filteredData = applyFilter(data, filterMode, filterValue)
     filteredData = applySorting(filteredData)
-    print(f"Schedules filtered: {len(filteredData)}")
-    
-    printGroupedGroups(data)
     formatted_data = applyFormat(filteredData, formatMode)
+
+    print()
+    print(f"Schedules: {len(filteredData)}")
+    if (formatMode.value == FormatMode.extended.value): analizeDates(formatted_data)
+    analizeGroups(formatted_data)
+    if (formatMode.value == FormatMode.extended.value): analizeDurations(formatted_data)
     print(f"--> Extracted schedules: {len(filteredData)}")
     return formatted_data
 
@@ -168,12 +172,6 @@ def applyFormat(data, formatMode):
     elif (formatMode.value == FormatMode.extended.value):
         return list(map(remapForExtended, data))
 
-def printGroupedGroups(data):
-    # Count schedules by group (not needed, just for logs and visual verification)
-    counted = Counter((item['loadShedGroupId']) for item in data)
-    output = [({'Group' : doctor}, k) for (doctor), k in counted.items()]
-    print(f'Grouped groups: {output}')
-
 def format_date_time(date_time):
     # Replace middle T by a space and remove last 3 character for seconds. 
     # Sample: from "2022-05-20T05:00:00" to "2022-05-20 05:00"
@@ -187,16 +185,79 @@ def remapForEkata(item):
     }
     return obj
 
-def remapForExtended(item): 
+def remapForExtended(item):
+    date = format_date_time(item['startTime']).split(" ")[0]
+    fromDatetime = parser.parse(item['startTime'])
+    toDatetime = parser.parse(item['endTime'])
+    durationSeconds = (toDatetime - fromDatetime).total_seconds()
+    durationDecimal = durationSeconds / 3600
+    durationHours = int(divmod(durationSeconds, 3600)[0])
+    durationMinutes = int(divmod(durationSeconds, 600)[0])
     obj = {
         "ceb_id": item['id'],
         "group": item['loadShedGroupId'],
         "starting_period": format_date_time(item['startTime']),
         "ending_period": format_date_time(item['endTime']),
-        "noOfFeeders": item['noOfFeeders'],
-        "timeStamp": item['timeStamp']
+        "date": date,
+        "date_year": date.split("-")[0],
+        "date_month": date.split("-")[1],
+        "date_day": date.split("-")[2],
+        "time_from": format_date_time(item['startTime']).split(" ")[1],
+        "time_to": format_date_time(item['endTime']).split(" ")[1],
+        "duration": durationDecimal,
+        "duration_hours": durationHours,
+        "duration_minutes": durationMinutes,
+        "ceb_noOfFeeders": item['noOfFeeders'],
+        "ceb_timeStamp": item['timeStamp'],
     }
     return obj
+
+def analizeGroups(data):
+    # Count schedules by group (not needed, just for logs and visual verification)
+    counted = Counter((item['group']) for item in data)
+    print(f'Groups: {len(counted.keys())}')
+    output = defaultdict(list)
+    for (groupName, count) in counted.items():
+        output[count].append(groupName)
+    output = OrderedDict(sorted(output.items(), reverse=True))
+    print(f'No. of schedules by groups:')
+    print(output)
+
+def analizeDurations(data):
+    # Count schedules by group (not needed, just for logs and visual verification)
+    countedGroups = Counter((item['group']) for item in data)
+    allAverages = defaultdict(int)
+    affectedDays = defaultdict(list)
+    for (groupName, count) in countedGroups.items():
+        groupData = filter(lambda item: groupName in item['group'], data)
+        countedDates = Counter((item['date']) for item in groupData)
+        affectedDays[len(countedDates.keys())].append(groupName)
+        currentGroupDurations = []
+        for (date, count) in countedDates.items():
+            currentDayData = filter(lambda item: date in item['date'], data)
+            currentDayDurations = []
+            for dayData in currentDayData:
+                currentDayDurations.append(dayData['duration'])
+            currentDaySum = sum(currentDayDurations) / len(currentDayDurations)
+            currentGroupDurations.append(currentDaySum)
+        currentGroupAverage = sum(currentGroupDurations) / len(currentGroupDurations)
+        allAverages[groupName] = currentGroupAverage
+    output = OrderedDict(sorted(affectedDays.items(), reverse=True))
+    print(f'No. of affected days by groups:')
+    print(output)
+    output = defaultdict(list)
+    for (groupName, average) in allAverages.items():
+        output[average].append(groupName)
+    output = OrderedDict(sorted(output.items(), reverse=True))
+    print(f'Average hours without light on affected days by groups:')
+    print(output)
+
+def analizeDates(data):
+    sortedByDate = sorted(data, key = lambda item: (item['date']))
+    fromDate = sortedByDate[0]["date"]
+    toDate = sortedByDate[-1]["date"]
+    elapsedDays = (parser.parse(toDate) - parser.parse(fromDate)).days
+    print(f'Date range: {elapsedDays} days (from {fromDate} to {toDate})')
 
 def deepSmallerThan(string1, string2):
     # Compare character by character
@@ -228,6 +289,12 @@ def saveOutputAsCsvFile(data):
     df.to_csv (filePath, index = None)
     print("Data saved in output.csv")
 
+def readSavedOutput():
+    print("Reading schedules...")
+    filePath = os.path.join('output', 'schedule', 'output.json')
+    with open(filePath) as f:
+        schedule_data = json.load(f)
+    return schedule_data
 
 # Main condition, will be called when running this script directly 
 if __name__ == "__main__":
@@ -242,7 +309,7 @@ if __name__ == "__main__":
     currentFormatMode = FormatMode.extended
     saveAsJson = True
     saveAsCsv = True
-    
+
     # Call the main function
     schedules = scrapeSchedules(currentTimeMode, currentFilterMode, currentFilterValue, currentFormatMode)
 
